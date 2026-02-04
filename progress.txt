@@ -6,6 +6,8 @@
 - Use `datetime.now(timezone.utc)` not deprecated `datetime.utcnow()`
 - stem library has no type stubs; use `# pyright: ignore[reportAttributeAccessIssue]` for Signal.NEWNYM
 - Controller.from_port() `port` param typed as str in stubs; pass str not int
+- 2captcha-python: `solver.recaptcha()` can return None; guard before subscripting result
+- Import exceptions from twocaptcha: ApiException, NetworkException, TimeoutException, ValidationException
 
 ---
 
@@ -50,4 +52,16 @@
 - **Learnings for future iterations:**
   - stem has no pyright-compatible type stubs; Signal.NEWNYM needs pyright ignore comment
   - Controller.from_port() port param is typed as str in stubs, not int
+---
+
+## 2026-02-04 - US-005
+- Created scraper/captcha.py: CaptchaSolver class wrapping 2captcha-python SDK
+- detect_sitekey(page) extracts reCAPTCHA sitekey via data-sitekey attr or grecaptcha.render regex
+- solve(sitekey, page_url) sends to 2Captcha, returns token or None on error
+- inject_token(page, token) sets g-recaptcha-response element + triggers reCAPTCHA callbacks
+- Handles all 2Captcha exceptions: ApiException, NetworkException, TimeoutException, ValidationException
+- Files changed: scraper/captcha.py, prd.json, progress.txt
+- **Learnings for future iterations:**
+  - solver.recaptcha() return type is Optional; must guard None before subscript
+  - twocaptcha package exports exceptions at top level
 ---
