@@ -28,3 +28,12 @@
   - config.get() returns Unknown type to pyright; wrap with str() for path params
   - Use `datetime.now(timezone.utc)` instead of deprecated `datetime.utcnow()`
 ---
+
+## 2026-02-04 - US-003
+- Created scraper/csv_reader.py: read_phones() reads single-column CSV, validates 9-digit Spanish mobile (starts 6/7), deduplicates, logs count
+- Falls back to config.yaml input_csv when no path arg provided
+- Files changed: scraper/csv_reader.py
+- **Learnings for future iterations:**
+  - Python 3.10+ `str | None` union syntax works fine with pyright, no need for Optional
+  - Use re.compile for regex patterns used in loops
+---
