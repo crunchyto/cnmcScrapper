@@ -83,3 +83,15 @@
   - Use Playwright type (not object) for _playwright field to get proper .stop() typing
   - Pre-existing errors in main.py/parser.py (old Michelin code): 57 errors, not introduced by this story
 ---
+
+## 2026-02-04 - US-007
+- Rewrote scraper/parser.py: replaced Michelin parser with CNMC portability result parser
+- parse_result(html) extracts Número de teléfono, Operador actual, Fecha consulta
+- Returns dict {phone, operator, query_date} or None on failure
+- Two extraction strategies: regex label>value and table-based <td>label</td><td>value</td>
+- _extract_error() handles CNMC error responses (error/alert classes, "no se ha encontrado")
+- Files changed: scraper/parser.py, prd.json, progress.txt
+- **Learnings for future iterations:**
+  - CNMC response format may use either label:value or table layout; parser handles both
+  - Old Michelin parser imported compute_content_hash from utils; no longer needed
+---

@@ -1,175 +1,86 @@
+"""Parse CNMC portability check response HTML."""
+
+import logging
 import re
-from typing import Optional
-from urllib.parse import urljoin
 
-from .utils import compute_content_hash
-
-BASE_URL = "https://guide.michelin.com"
+logger = logging.getLogger(__name__)
 
 
-def parse_total_count(html: str) -> Optional[int]:
-    """Extract total restaurant count from listing page header."""
-    # Spanish: "1.274 restaurantes" (dot as thousands separator)
-    match = re.search(r'([\d.]+)\s+restaurantes?', html, re.IGNORECASE)
-    if not match:
-        # English fallback: "1,274 restaurants"
-        match = re.search(r'([\d,]+)\s+restaurants?', html, re.IGNORECASE)
-    if match:
-        try:
-            raw = match.group(1).replace(".", "").replace(",", "")
-            return int(raw)
-        except ValueError:
+def parse_result(html: str) -> dict[str, str] | None:
+    """
+    Extract phone, operator, and query date from CNMC response HTML.
+
+    Returns dict with keys: phone, operator, query_date.
+    Returns None on parse failure.
+    """
+    try:
+        phone = _extract_field(html, r"[Nn]úmero\s+de\s+teléfono[^<]*?[>:]\s*([^<\n]+)")
+        operator = _extract_field(html, r"[Oo]perador\s+actual[^<]*?[>:]\s*([^<\n]+)")
+        query_date = _extract_field(html, r"[Ff]echa\s+(?:de\s+)?consulta[^<]*?[>:]\s*([^<\n]+)")
+
+        if not phone and not operator:
+            # Try table-based layout: <td>label</td><td>value</td>
+            phone = _extract_table_field(html, r"[Nn]úmero\s+de\s+teléfono")
+            operator = _extract_table_field(html, r"[Oo]perador\s+actual")
+            query_date = _extract_table_field(html, r"[Ff]echa\s+(?:de\s+)?consulta")
+
+        if not phone and not operator:
+            # Check for error response
+            error = _extract_error(html)
+            if error:
+                logger.error("CNMC returned error: %s", error)
+            else:
+                logger.error("Failed to parse CNMC response: no phone or operator found")
             return None
+
+        result = {
+            "phone": (phone or "").strip(),
+            "operator": (operator or "").strip(),
+            "query_date": (query_date or "").strip(),
+        }
+        logger.debug("Parsed result: %s", result)
+        return result
+
+    except Exception:
+        logger.exception("Unexpected error parsing CNMC response")
+        return None
+
+
+def _extract_field(html: str, pattern: str) -> str | None:
+    """Extract a field value using regex pattern."""
+    match = re.search(pattern, html)
+    if match:
+        value = match.group(1).strip()
+        # Remove any remaining HTML tags
+        value = re.sub(r"<[^>]+>", "", value).strip()
+        return value if value else None
     return None
 
 
-def parse_listing_page(html: str) -> list[dict]:
-    """
-    Extract restaurant cards from listing page.
-    Returns list of {name, url, city, cuisine, distinction}.
-    """
-    restaurants = []
-
-    # Primary: Spanish locale links /es/.../restaurante/...
-    link_pattern = re.compile(
-        r'href="(/es/[^"]+/restaurante/[^"]+)"',
-        re.IGNORECASE
+def _extract_table_field(html: str, label_pattern: str) -> str | None:
+    """Extract value from table row: <td>label</td><td>value</td>."""
+    pattern = (
+        r"<t[dh][^>]*>[^<]*" + label_pattern + r"[^<]*</t[dh]>\s*"
+        r"<td[^>]*>\s*([^<]+?)\s*</td>"
     )
-
-    seen_urls = set()
-    for match in link_pattern.finditer(html):
-        url = match.group(1)
-        if url in seen_urls:
-            continue
-        seen_urls.add(url)
-
-    # Fallback: English locale links /en/.../restaurant/...
-    if not seen_urls:
-        en_pattern = re.compile(
-            r'href="(/en/[^"]+/restaurant/[^"]+)"',
-            re.IGNORECASE
-        )
-        for match in en_pattern.finditer(html):
-            url = match.group(1)
-            if url in seen_urls:
-                continue
-            seen_urls.add(url)
-
-    for url in seen_urls:
-
-        # Extract name from URL slug
-        slug = url.rstrip("/").split("/")[-1]
-        name = slug.replace("-", " ").title()
-
-        restaurants.append({
-            "name": name,
-            "url": urljoin(BASE_URL, url),
-            "michelin_url": urljoin(BASE_URL, url),
-        })
-
-    return restaurants
+    match = re.search(pattern, html, re.IGNORECASE | re.DOTALL)
+    if match:
+        value = match.group(1).strip()
+        return value if value else None
+    return None
 
 
-def parse_detail_page(html: str, url: str) -> Optional[dict]:
-    """
-    Extract full restaurant data from detail page.
-    Returns dict with all fields + content_hash.
-    """
-    data = {
-        "michelin_url": url,
-        "michelin_id": _extract_michelin_id(url),
-    }
-
-    # Name - usually in h1
-    name_match = re.search(r'<h1[^>]*>([^<]+)</h1>', html)
-    data["name"] = name_match.group(1).strip() if name_match else ""
-
-    # Stars - English "X MICHELIN Star" or Spanish "X Estrella MICHELIN"
-    stars = 0
-    lower = html.lower()
-    if "3 michelin star" in lower or "three michelin star" in lower or "3 estrella michelin" in lower or "tres estrella" in lower:
-        stars = 3
-    elif "2 michelin star" in lower or "two michelin star" in lower or "2 estrella michelin" in lower or "dos estrella" in lower:
-        stars = 2
-    elif "1 michelin star" in lower or "one michelin star" in lower or "1 estrella michelin" in lower or "una estrella" in lower:
-        stars = 1
-    data["stars"] = stars
-
-    # Bib Gourmand
-    data["bib_gourmand"] = 1 if "Bib Gourmand" in html else 0
-
-    # Address - look for address schema or common patterns
-    addr_match = re.search(
-        r'<div[^>]*class="[^"]*address[^"]*"[^>]*>([^<]+)</div>',
-        html, re.IGNORECASE
-    )
-    if not addr_match:
-        addr_match = re.search(r'"streetAddress"\s*:\s*"([^"]+)"', html)
-    data["address"] = addr_match.group(1).strip() if addr_match else ""
-
-    # City
-    city_match = re.search(r'"addressLocality"\s*:\s*"([^"]+)"', html)
-    data["city"] = city_match.group(1).strip() if city_match else ""
-
-    # Region
-    region_match = re.search(r'"addressRegion"\s*:\s*"([^"]+)"', html)
-    data["region"] = region_match.group(1).strip() if region_match else ""
-
-    # Price range - look for $, $$, $$$, $$$$
-    price_match = re.search(r'(\${1,4})', html)
-    data["price_range"] = price_match.group(1) if price_match else ""
-
-    # Cuisine types - often in a specific div or meta
-    cuisine_match = re.search(
-        r'<span[^>]*class="[^"]*cuisine[^"]*"[^>]*>([^<]+)</span>',
-        html, re.IGNORECASE
-    )
-    if not cuisine_match:
-        cuisine_match = re.search(r'"servesCuisine"\s*:\s*"([^"]+)"', html)
-    data["cuisine_types"] = cuisine_match.group(1).strip() if cuisine_match else ""
-
-    # Description
-    desc_match = re.search(
-        r'<div[^>]*class="[^"]*description[^"]*"[^>]*>(.*?)</div>',
-        html, re.IGNORECASE | re.DOTALL
-    )
-    if desc_match:
-        # Strip HTML tags from description
-        desc = re.sub(r'<[^>]+>', '', desc_match.group(1))
-        data["description"] = desc.strip()
-    else:
-        data["description"] = ""
-
-    # Coordinates
-    lat_match = re.search(r'"latitude"\s*:\s*([0-9.-]+)', html)
-    lon_match = re.search(r'"longitude"\s*:\s*([0-9.-]+)', html)
-    data["latitude"] = float(lat_match.group(1)) if lat_match else None
-    data["longitude"] = float(lon_match.group(1)) if lon_match else None
-
-    # Phone
-    phone_match = re.search(r'"telephone"\s*:\s*"([^"]+)"', html)
-    data["phone"] = phone_match.group(1).strip() if phone_match else ""
-
-    # Website
-    web_match = re.search(r'"url"\s*:\s*"(https?://(?!guide\.michelin)[^"]+)"', html)
-    data["website"] = web_match.group(1) if web_match else ""
-
-    # Image URL
-    img_match = re.search(r'"image"\s*:\s*"([^"]+)"', html)
-    if not img_match:
-        img_match = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', html)
-    data["image_url"] = img_match.group(1) if img_match else ""
-
-    # Compute content hash for change detection (exclude timestamps)
-    hash_data = {k: v for k, v in data.items() if k not in ("created_at", "updated_at")}
-    data["content_hash"] = compute_content_hash(hash_data)
-
-    return data
-
-
-def _extract_michelin_id(url: str) -> str:
-    """Extract unique ID from Michelin URL."""
-    # URL format: .../restaurant/restaurant-name-123456
-    # Use the full slug as ID
-    parts = url.rstrip("/").split("/")
-    return parts[-1] if parts else ""
+def _extract_error(html: str) -> str | None:
+    """Extract error message from CNMC response."""
+    # Common error patterns
+    patterns = [
+        r'class="[^"]*error[^"]*"[^>]*>([^<]+)<',
+        r'class="[^"]*alert[^"]*"[^>]*>([^<]+)<',
+        r"[Ee]rror[:\s]+([^<\n]+)",
+        r"[Nn]o\s+se\s+ha\s+encontrado[^<\n]*",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, html)
+        if match:
+            return match.group(1).strip() if match.lastindex else match.group(0).strip()
+    return None
