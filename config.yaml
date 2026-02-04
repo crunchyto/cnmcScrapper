@@ -1,0 +1,38 @@
+# CNMC Mobile Carrier Scraper Configuration
+
+# Tor proxy settings
+proxy:
+  tor_host: "127.0.0.1"
+  tor_port: 9050
+  control_port: 9051
+  control_password: "scraper"
+
+# 2Captcha settings
+captcha:
+  api_key: "" # Your 2Captcha API key
+
+# Scraping settings
+scraping:
+  base_url: "https://numeracionyoperadores.cnmc.es/portabilidad/movil"
+  delay_seconds: 2
+  rotation_count: 9 # Rotate IP every N successful queries
+  page_load_timeout_ms: 60000
+
+# Input CSV (can be overridden by --input CLI arg)
+input_csv: "phones.csv"
+
+# Retry settings
+retry:
+  max_attempts: 3
+  base_delay_seconds: 5
+
+# Database
+database:
+  path: "cnmc.db"
+
+# Logging
+logging:
+  level: "INFO"
+  file: "scraper.log"
+  max_bytes: 10485760 # 10MB
+  backup_count: 5
