@@ -8,6 +8,8 @@
 - Controller.from_port() `port` param typed as str in stubs; pass str not int
 - 2captcha-python: `solver.recaptcha()` can return None; guard before subscripting result
 - Import exceptions from twocaptcha: ApiException, NetworkException, TimeoutException, ValidationException
+- Playwright ProxySettings TypedDict importable from playwright.async_api; use it instead of plain dict for proxy args
+- Store Playwright instance as `Playwright` type (not `object`) to avoid pyright issues on .stop()
 
 ---
 
@@ -64,4 +66,20 @@
 - **Learnings for future iterations:**
   - solver.recaptcha() return type is Optional; must guard None before subscript
   - twocaptcha package exports exceptions at top level
+---
+
+## 2026-02-04 - US-006
+- Rewrote scraper/browser.py: CNMC-specific Browser class with Tor SOCKS5 proxy
+- Launches Chromium via Playwright with socks5 proxy from config proxy.tor_host/tor_port
+- Webdriver masking: navigator.webdriver=false, chrome.runtime, Spanish locale languages
+- User agent rotation from predefined list; rotate_user_agent() creates fresh context+page
+- navigate_to_form() loads CNMC portability page with networkidle wait
+- fill_phone(phone) finds and fills input field
+- submit_form() clicks submit/Consultar button
+- get_response_html() waits for result selectors then returns page HTML
+- Files changed: scraper/browser.py, prd.json, progress.txt
+- **Learnings for future iterations:**
+  - Import ProxySettings from playwright.async_api for typed proxy dicts
+  - Use Playwright type (not object) for _playwright field to get proper .stop() typing
+  - Pre-existing errors in main.py/parser.py (old Michelin code): 57 errors, not introduced by this story
 ---
