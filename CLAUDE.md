@@ -1,0 +1,2 @@
+- Use uv to manage python packages and virtual environment
+- Be sure to activate the uv environment before any execution/test

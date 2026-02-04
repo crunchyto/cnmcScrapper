@@ -1,0 +1,2174 @@
+2026-01-29 22:57:10,172 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-29 22:57:10,172 [INFO] Tor control port connected
+2026-01-29 22:57:10,172 [INFO] Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
+2026-01-29 22:57:10,172 [INFO] Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2026-01-29 22:57:10,172 [INFO] Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2026-01-29 22:57:10,173 [INFO] Proxy pool initialized with 1 proxies
+2026-01-29 22:57:10,173 [INFO] Starting full scrape from page 1/393
+2026-01-29 22:57:11,178 [INFO] Browser started
+2026-01-29 22:57:11,189 [INFO] Fetching listing page 1
+2026-01-29 22:57:15,202 [INFO] Found 48 restaurants on page 1
+2026-01-29 22:57:54,590 [INFO] Batch complete (25/48), waiting 10s...
+2026-01-29 22:58:43,787 [INFO] Page 1/393 complete. Total: +48 ~0 =0 !0
+2026-01-29 22:58:43,787 [INFO] Fetching listing page 2
+2026-01-29 22:58:45,481 [INFO] Found 52 restaurants on page 2
+2026-01-29 22:59:08,843 [INFO] Batch complete (25/48), waiting 10s...
+2026-01-29 22:59:33,891 [INFO] Page 2/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:33,891 [INFO] Fetching listing page 3
+2026-01-29 22:59:34,532 [INFO] Found 0 restaurants on page 3
+2026-01-29 22:59:34,532 [INFO] Page 3/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:34,532 [INFO] Fetching listing page 4
+2026-01-29 22:59:35,184 [INFO] Found 0 restaurants on page 4
+2026-01-29 22:59:35,184 [INFO] Page 4/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:35,184 [INFO] Fetching listing page 5
+2026-01-29 22:59:35,740 [INFO] Found 0 restaurants on page 5
+2026-01-29 22:59:35,741 [INFO] Page 5/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:35,741 [INFO] Fetching listing page 6
+2026-01-29 22:59:36,514 [INFO] Found 0 restaurants on page 6
+2026-01-29 22:59:36,515 [INFO] Page 6/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:36,515 [INFO] Fetching listing page 7
+2026-01-29 22:59:37,188 [INFO] Found 0 restaurants on page 7
+2026-01-29 22:59:37,188 [INFO] Page 7/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:37,189 [INFO] Fetching listing page 8
+2026-01-29 22:59:37,763 [INFO] Found 0 restaurants on page 8
+2026-01-29 22:59:37,763 [INFO] Page 8/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:37,763 [INFO] Fetching listing page 9
+2026-01-29 22:59:38,453 [INFO] Found 0 restaurants on page 9
+2026-01-29 22:59:38,453 [INFO] Page 9/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:38,453 [INFO] Fetching listing page 10
+2026-01-29 22:59:39,062 [INFO] Found 0 restaurants on page 10
+2026-01-29 22:59:39,063 [INFO] Page 10/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:39,063 [INFO] Fetching listing page 11
+2026-01-29 22:59:39,886 [INFO] Found 0 restaurants on page 11
+2026-01-29 22:59:39,887 [INFO] Page 11/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:39,887 [INFO] Fetching listing page 12
+2026-01-29 22:59:40,454 [INFO] Found 0 restaurants on page 12
+2026-01-29 22:59:40,455 [INFO] Page 12/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:40,455 [INFO] Fetching listing page 13
+2026-01-29 22:59:41,006 [INFO] Found 0 restaurants on page 13
+2026-01-29 22:59:41,007 [INFO] Page 13/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:41,007 [INFO] Fetching listing page 14
+2026-01-29 22:59:41,719 [INFO] Found 0 restaurants on page 14
+2026-01-29 22:59:41,720 [INFO] Page 14/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:41,720 [INFO] Fetching listing page 15
+2026-01-29 22:59:42,549 [INFO] Found 0 restaurants on page 15
+2026-01-29 22:59:42,550 [INFO] Page 15/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:42,550 [INFO] Fetching listing page 16
+2026-01-29 22:59:43,271 [INFO] Found 0 restaurants on page 16
+2026-01-29 22:59:43,271 [INFO] Page 16/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:43,271 [INFO] Fetching listing page 17
+2026-01-29 22:59:43,992 [INFO] Found 0 restaurants on page 17
+2026-01-29 22:59:43,993 [INFO] Page 17/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:43,993 [INFO] Fetching listing page 18
+2026-01-29 22:59:44,654 [INFO] Found 0 restaurants on page 18
+2026-01-29 22:59:44,655 [INFO] Page 18/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:44,655 [INFO] Fetching listing page 19
+2026-01-29 22:59:45,453 [INFO] Found 0 restaurants on page 19
+2026-01-29 22:59:45,454 [INFO] Page 19/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:45,454 [INFO] Fetching listing page 20
+2026-01-29 22:59:46,103 [INFO] Found 0 restaurants on page 20
+2026-01-29 22:59:46,103 [INFO] Page 20/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:46,103 [INFO] Fetching listing page 21
+2026-01-29 22:59:46,748 [INFO] Found 0 restaurants on page 21
+2026-01-29 22:59:46,749 [INFO] Page 21/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:46,749 [INFO] Fetching listing page 22
+2026-01-29 22:59:47,514 [INFO] Found 0 restaurants on page 22
+2026-01-29 22:59:47,514 [INFO] Page 22/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:47,514 [INFO] Fetching listing page 23
+2026-01-29 22:59:48,203 [INFO] Found 0 restaurants on page 23
+2026-01-29 22:59:48,204 [INFO] Page 23/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:48,204 [INFO] Fetching listing page 24
+2026-01-29 22:59:48,932 [INFO] Found 0 restaurants on page 24
+2026-01-29 22:59:48,932 [INFO] Page 24/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:48,932 [INFO] Fetching listing page 25
+2026-01-29 22:59:49,620 [INFO] Found 0 restaurants on page 25
+2026-01-29 22:59:49,620 [INFO] Page 25/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:49,620 [INFO] Fetching listing page 26
+2026-01-29 22:59:50,299 [INFO] Found 0 restaurants on page 26
+2026-01-29 22:59:50,299 [INFO] Page 26/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:50,299 [INFO] Fetching listing page 27
+2026-01-29 22:59:50,944 [INFO] Found 0 restaurants on page 27
+2026-01-29 22:59:50,944 [INFO] Page 27/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:50,944 [INFO] Fetching listing page 28
+2026-01-29 22:59:51,703 [INFO] Found 0 restaurants on page 28
+2026-01-29 22:59:51,704 [INFO] Page 28/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:51,704 [INFO] Fetching listing page 29
+2026-01-29 22:59:52,395 [INFO] Found 0 restaurants on page 29
+2026-01-29 22:59:52,395 [INFO] Page 29/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:52,395 [INFO] Fetching listing page 30
+2026-01-29 22:59:53,140 [INFO] Found 0 restaurants on page 30
+2026-01-29 22:59:53,141 [INFO] Page 30/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:53,141 [INFO] Fetching listing page 31
+2026-01-29 22:59:53,968 [INFO] Found 0 restaurants on page 31
+2026-01-29 22:59:53,968 [INFO] Page 31/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:53,968 [INFO] Fetching listing page 32
+2026-01-29 22:59:54,674 [INFO] Found 0 restaurants on page 32
+2026-01-29 22:59:54,675 [INFO] Page 32/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:54,675 [INFO] Fetching listing page 33
+2026-01-29 22:59:55,424 [INFO] Found 0 restaurants on page 33
+2026-01-29 22:59:55,424 [INFO] Page 33/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:55,424 [INFO] Fetching listing page 34
+2026-01-29 22:59:56,097 [INFO] Found 0 restaurants on page 34
+2026-01-29 22:59:56,097 [INFO] Page 34/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:56,097 [INFO] Fetching listing page 35
+2026-01-29 22:59:56,902 [INFO] Found 0 restaurants on page 35
+2026-01-29 22:59:56,902 [INFO] Page 35/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:56,902 [INFO] Fetching listing page 36
+2026-01-29 22:59:57,689 [INFO] Found 0 restaurants on page 36
+2026-01-29 22:59:57,689 [INFO] Page 36/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:57,690 [INFO] Fetching listing page 37
+2026-01-29 22:59:58,475 [INFO] Found 0 restaurants on page 37
+2026-01-29 22:59:58,475 [INFO] Page 37/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:58,475 [INFO] Fetching listing page 38
+2026-01-29 22:59:59,232 [INFO] Found 0 restaurants on page 38
+2026-01-29 22:59:59,232 [INFO] Page 38/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 22:59:59,232 [INFO] Fetching listing page 39
+2026-01-29 23:00:00,050 [INFO] Found 0 restaurants on page 39
+2026-01-29 23:00:00,050 [INFO] Page 39/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:00,050 [INFO] Fetching listing page 40
+2026-01-29 23:00:00,836 [INFO] Found 0 restaurants on page 40
+2026-01-29 23:00:00,836 [INFO] Page 40/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:00,836 [INFO] Fetching listing page 41
+2026-01-29 23:00:01,620 [INFO] Found 0 restaurants on page 41
+2026-01-29 23:00:01,621 [INFO] Page 41/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:01,621 [INFO] Fetching listing page 42
+2026-01-29 23:00:02,464 [INFO] Found 0 restaurants on page 42
+2026-01-29 23:00:02,465 [INFO] Page 42/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:02,465 [INFO] Fetching listing page 43
+2026-01-29 23:00:03,207 [INFO] Found 0 restaurants on page 43
+2026-01-29 23:00:03,208 [INFO] Page 43/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:03,208 [INFO] Fetching listing page 44
+2026-01-29 23:00:04,032 [INFO] Found 0 restaurants on page 44
+2026-01-29 23:00:04,033 [INFO] Page 44/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:04,033 [INFO] Fetching listing page 45
+2026-01-29 23:00:04,964 [INFO] Found 0 restaurants on page 45
+2026-01-29 23:00:04,964 [INFO] Page 45/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:04,964 [INFO] Fetching listing page 46
+2026-01-29 23:00:05,818 [INFO] Found 0 restaurants on page 46
+2026-01-29 23:00:05,819 [INFO] Page 46/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:05,819 [INFO] Fetching listing page 47
+2026-01-29 23:00:06,623 [INFO] Found 0 restaurants on page 47
+2026-01-29 23:00:06,624 [INFO] Page 47/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:06,624 [INFO] Fetching listing page 48
+2026-01-29 23:00:07,401 [INFO] Found 0 restaurants on page 48
+2026-01-29 23:00:07,402 [INFO] Page 48/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:07,402 [INFO] Fetching listing page 49
+2026-01-29 23:00:08,302 [INFO] Found 0 restaurants on page 49
+2026-01-29 23:00:08,302 [INFO] Page 49/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:08,303 [INFO] Fetching listing page 50
+2026-01-29 23:00:09,171 [INFO] Found 0 restaurants on page 50
+2026-01-29 23:00:09,172 [INFO] Page 50/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:09,172 [INFO] Fetching listing page 51
+2026-01-29 23:00:09,909 [INFO] Found 0 restaurants on page 51
+2026-01-29 23:00:09,909 [INFO] Page 51/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:09,909 [INFO] Fetching listing page 52
+2026-01-29 23:00:10,655 [INFO] Found 0 restaurants on page 52
+2026-01-29 23:00:10,656 [INFO] Page 52/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:10,656 [INFO] Fetching listing page 53
+2026-01-29 23:00:11,346 [INFO] Found 0 restaurants on page 53
+2026-01-29 23:00:11,347 [INFO] Page 53/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:11,347 [INFO] Fetching listing page 54
+2026-01-29 23:00:11,970 [INFO] Found 0 restaurants on page 54
+2026-01-29 23:00:11,971 [INFO] Page 54/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:11,971 [INFO] Fetching listing page 55
+2026-01-29 23:00:12,695 [INFO] Found 0 restaurants on page 55
+2026-01-29 23:00:12,695 [INFO] Page 55/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:12,695 [INFO] Fetching listing page 56
+2026-01-29 23:00:13,402 [INFO] Found 0 restaurants on page 56
+2026-01-29 23:00:13,402 [INFO] Page 56/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:13,402 [INFO] Fetching listing page 57
+2026-01-29 23:00:14,195 [INFO] Found 0 restaurants on page 57
+2026-01-29 23:00:14,196 [INFO] Page 57/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:14,196 [INFO] Fetching listing page 58
+2026-01-29 23:00:15,072 [INFO] Found 0 restaurants on page 58
+2026-01-29 23:00:15,072 [INFO] Page 58/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:15,072 [INFO] Fetching listing page 59
+2026-01-29 23:00:15,927 [INFO] Found 0 restaurants on page 59
+2026-01-29 23:00:15,927 [INFO] Page 59/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:15,927 [INFO] Fetching listing page 60
+2026-01-29 23:00:16,703 [INFO] Found 0 restaurants on page 60
+2026-01-29 23:00:16,704 [INFO] Page 60/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:16,704 [INFO] Fetching listing page 61
+2026-01-29 23:00:17,430 [INFO] Found 0 restaurants on page 61
+2026-01-29 23:00:17,430 [INFO] Page 61/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:17,430 [INFO] Fetching listing page 62
+2026-01-29 23:00:18,137 [INFO] Found 0 restaurants on page 62
+2026-01-29 23:00:18,138 [INFO] Page 62/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:18,138 [INFO] Fetching listing page 63
+2026-01-29 23:00:18,910 [INFO] Found 0 restaurants on page 63
+2026-01-29 23:00:18,910 [INFO] Page 63/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:18,910 [INFO] Fetching listing page 64
+2026-01-29 23:00:19,591 [INFO] Found 0 restaurants on page 64
+2026-01-29 23:00:19,591 [INFO] Page 64/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:19,591 [INFO] Fetching listing page 65
+2026-01-29 23:00:20,402 [INFO] Found 0 restaurants on page 65
+2026-01-29 23:00:20,402 [INFO] Page 65/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:20,403 [INFO] Fetching listing page 66
+2026-01-29 23:00:21,137 [INFO] Found 0 restaurants on page 66
+2026-01-29 23:00:21,137 [INFO] Page 66/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:21,137 [INFO] Fetching listing page 67
+2026-01-29 23:00:21,854 [INFO] Found 0 restaurants on page 67
+2026-01-29 23:00:21,855 [INFO] Page 67/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:21,855 [INFO] Fetching listing page 68
+2026-01-29 23:00:22,657 [INFO] Found 0 restaurants on page 68
+2026-01-29 23:00:22,657 [INFO] Page 68/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:22,657 [INFO] Fetching listing page 69
+2026-01-29 23:00:23,358 [INFO] Found 0 restaurants on page 69
+2026-01-29 23:00:23,358 [INFO] Page 69/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:23,358 [INFO] Fetching listing page 70
+2026-01-29 23:00:24,120 [INFO] Found 0 restaurants on page 70
+2026-01-29 23:00:24,121 [INFO] Page 70/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:24,121 [INFO] Fetching listing page 71
+2026-01-29 23:00:24,909 [INFO] Found 0 restaurants on page 71
+2026-01-29 23:00:24,909 [INFO] Page 71/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:24,909 [INFO] Fetching listing page 72
+2026-01-29 23:00:25,637 [INFO] Found 0 restaurants on page 72
+2026-01-29 23:00:25,637 [INFO] Page 72/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:25,637 [INFO] Fetching listing page 73
+2026-01-29 23:00:26,341 [INFO] Found 0 restaurants on page 73
+2026-01-29 23:00:26,341 [INFO] Page 73/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:26,341 [INFO] Fetching listing page 74
+2026-01-29 23:00:27,094 [INFO] Found 0 restaurants on page 74
+2026-01-29 23:00:27,094 [INFO] Page 74/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:27,094 [INFO] Fetching listing page 75
+2026-01-29 23:00:27,797 [INFO] Found 0 restaurants on page 75
+2026-01-29 23:00:27,798 [INFO] Page 75/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:27,798 [INFO] Fetching listing page 76
+2026-01-29 23:00:28,463 [INFO] Found 0 restaurants on page 76
+2026-01-29 23:00:28,464 [INFO] Page 76/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:28,464 [INFO] Fetching listing page 77
+2026-01-29 23:00:29,219 [INFO] Found 0 restaurants on page 77
+2026-01-29 23:00:29,219 [INFO] Page 77/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:29,219 [INFO] Fetching listing page 78
+2026-01-29 23:00:29,904 [INFO] Found 0 restaurants on page 78
+2026-01-29 23:00:29,904 [INFO] Page 78/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:29,904 [INFO] Fetching listing page 79
+2026-01-29 23:00:30,638 [INFO] Found 0 restaurants on page 79
+2026-01-29 23:00:30,638 [INFO] Page 79/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:30,639 [INFO] Fetching listing page 80
+2026-01-29 23:00:31,382 [INFO] Found 0 restaurants on page 80
+2026-01-29 23:00:31,382 [INFO] Page 80/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:31,382 [INFO] Fetching listing page 81
+2026-01-29 23:00:32,104 [INFO] Found 0 restaurants on page 81
+2026-01-29 23:00:32,104 [INFO] Page 81/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:32,104 [INFO] Fetching listing page 82
+2026-01-29 23:00:32,852 [INFO] Found 0 restaurants on page 82
+2026-01-29 23:00:32,853 [INFO] Page 82/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:32,853 [INFO] Fetching listing page 83
+2026-01-29 23:00:33,617 [INFO] Found 0 restaurants on page 83
+2026-01-29 23:00:33,618 [INFO] Page 83/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:33,618 [INFO] Fetching listing page 84
+2026-01-29 23:00:34,386 [INFO] Found 0 restaurants on page 84
+2026-01-29 23:00:34,387 [INFO] Page 84/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:34,387 [INFO] Fetching listing page 85
+2026-01-29 23:00:35,178 [INFO] Found 0 restaurants on page 85
+2026-01-29 23:00:35,178 [INFO] Page 85/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:35,178 [INFO] Fetching listing page 86
+2026-01-29 23:00:35,937 [INFO] Found 0 restaurants on page 86
+2026-01-29 23:00:35,938 [INFO] Page 86/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:35,938 [INFO] Fetching listing page 87
+2026-01-29 23:00:36,748 [INFO] Found 0 restaurants on page 87
+2026-01-29 23:00:36,749 [INFO] Page 87/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:36,749 [INFO] Fetching listing page 88
+2026-01-29 23:00:37,526 [INFO] Found 0 restaurants on page 88
+2026-01-29 23:00:37,526 [INFO] Page 88/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:37,526 [INFO] Fetching listing page 89
+2026-01-29 23:00:38,322 [INFO] Found 0 restaurants on page 89
+2026-01-29 23:00:38,323 [INFO] Page 89/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:38,323 [INFO] Fetching listing page 90
+2026-01-29 23:00:39,077 [INFO] Found 0 restaurants on page 90
+2026-01-29 23:00:39,077 [INFO] Page 90/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:39,077 [INFO] Fetching listing page 91
+2026-01-29 23:00:39,893 [INFO] Found 0 restaurants on page 91
+2026-01-29 23:00:39,893 [INFO] Page 91/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:39,893 [INFO] Fetching listing page 92
+2026-01-29 23:00:40,650 [INFO] Found 0 restaurants on page 92
+2026-01-29 23:00:40,650 [INFO] Page 92/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:40,650 [INFO] Fetching listing page 93
+2026-01-29 23:00:41,466 [INFO] Found 0 restaurants on page 93
+2026-01-29 23:00:41,466 [INFO] Page 93/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:41,466 [INFO] Fetching listing page 94
+2026-01-29 23:00:42,258 [INFO] Found 0 restaurants on page 94
+2026-01-29 23:00:42,259 [INFO] Page 94/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:42,259 [INFO] Fetching listing page 95
+2026-01-29 23:00:43,040 [INFO] Found 0 restaurants on page 95
+2026-01-29 23:00:43,040 [INFO] Page 95/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:43,041 [INFO] Fetching listing page 96
+2026-01-29 23:00:43,809 [INFO] Found 0 restaurants on page 96
+2026-01-29 23:00:43,810 [INFO] Page 96/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:43,810 [INFO] Fetching listing page 97
+2026-01-29 23:00:44,481 [INFO] Found 0 restaurants on page 97
+2026-01-29 23:00:44,481 [INFO] Page 97/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:44,481 [INFO] Fetching listing page 98
+2026-01-29 23:00:45,335 [INFO] Found 0 restaurants on page 98
+2026-01-29 23:00:45,336 [INFO] Page 98/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:45,336 [INFO] Fetching listing page 99
+2026-01-29 23:00:46,065 [INFO] Found 0 restaurants on page 99
+2026-01-29 23:00:46,065 [INFO] Page 99/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:46,065 [INFO] Fetching listing page 100
+2026-01-29 23:00:46,952 [INFO] Found 0 restaurants on page 100
+2026-01-29 23:00:46,952 [INFO] Page 100/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:46,952 [INFO] Fetching listing page 101
+2026-01-29 23:00:47,755 [INFO] Found 0 restaurants on page 101
+2026-01-29 23:00:47,756 [INFO] Page 101/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:47,756 [INFO] Fetching listing page 102
+2026-01-29 23:00:48,566 [INFO] Found 0 restaurants on page 102
+2026-01-29 23:00:48,567 [INFO] Page 102/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:48,567 [INFO] Fetching listing page 103
+2026-01-29 23:00:49,333 [INFO] Found 0 restaurants on page 103
+2026-01-29 23:00:49,334 [INFO] Page 103/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:49,334 [INFO] Fetching listing page 104
+2026-01-29 23:00:50,129 [INFO] Found 0 restaurants on page 104
+2026-01-29 23:00:50,129 [INFO] Page 104/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:50,130 [INFO] Fetching listing page 105
+2026-01-29 23:00:50,945 [INFO] Found 0 restaurants on page 105
+2026-01-29 23:00:50,946 [INFO] Page 105/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:50,946 [INFO] Fetching listing page 106
+2026-01-29 23:00:51,955 [INFO] Found 0 restaurants on page 106
+2026-01-29 23:00:51,955 [INFO] Page 106/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:51,955 [INFO] Fetching listing page 107
+2026-01-29 23:00:52,794 [INFO] Found 0 restaurants on page 107
+2026-01-29 23:00:52,794 [INFO] Page 107/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:52,794 [INFO] Fetching listing page 108
+2026-01-29 23:00:53,537 [INFO] Found 0 restaurants on page 108
+2026-01-29 23:00:53,538 [INFO] Page 108/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:53,538 [INFO] Fetching listing page 109
+2026-01-29 23:00:54,260 [INFO] Found 0 restaurants on page 109
+2026-01-29 23:00:54,261 [INFO] Page 109/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:54,261 [INFO] Fetching listing page 110
+2026-01-29 23:00:55,098 [INFO] Found 0 restaurants on page 110
+2026-01-29 23:00:55,098 [INFO] Page 110/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:55,098 [INFO] Fetching listing page 111
+2026-01-29 23:00:55,869 [INFO] Found 0 restaurants on page 111
+2026-01-29 23:00:55,870 [INFO] Page 111/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:55,870 [INFO] Fetching listing page 112
+2026-01-29 23:00:56,582 [INFO] Found 0 restaurants on page 112
+2026-01-29 23:00:56,583 [INFO] Page 112/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:56,583 [INFO] Fetching listing page 113
+2026-01-29 23:00:57,436 [INFO] Found 0 restaurants on page 113
+2026-01-29 23:00:57,437 [INFO] Page 113/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:57,437 [INFO] Fetching listing page 114
+2026-01-29 23:00:58,257 [INFO] Found 0 restaurants on page 114
+2026-01-29 23:00:58,257 [INFO] Page 114/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:58,257 [INFO] Fetching listing page 115
+2026-01-29 23:00:58,979 [INFO] Found 0 restaurants on page 115
+2026-01-29 23:00:58,980 [INFO] Page 115/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:58,980 [INFO] Fetching listing page 116
+2026-01-29 23:00:59,819 [INFO] Found 0 restaurants on page 116
+2026-01-29 23:00:59,820 [INFO] Page 116/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:00:59,820 [INFO] Fetching listing page 117
+2026-01-29 23:01:00,565 [INFO] Found 0 restaurants on page 117
+2026-01-29 23:01:00,566 [INFO] Page 117/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:00,566 [INFO] Fetching listing page 118
+2026-01-29 23:01:01,288 [INFO] Found 0 restaurants on page 118
+2026-01-29 23:01:01,288 [INFO] Page 118/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:01,288 [INFO] Fetching listing page 119
+2026-01-29 23:01:02,159 [INFO] Found 0 restaurants on page 119
+2026-01-29 23:01:02,159 [INFO] Page 119/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:02,159 [INFO] Fetching listing page 120
+2026-01-29 23:01:02,964 [INFO] Found 0 restaurants on page 120
+2026-01-29 23:01:02,964 [INFO] Page 120/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:02,965 [INFO] Fetching listing page 121
+2026-01-29 23:01:03,639 [INFO] Found 0 restaurants on page 121
+2026-01-29 23:01:03,640 [INFO] Page 121/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:03,640 [INFO] Fetching listing page 122
+2026-01-29 23:01:04,375 [INFO] Found 0 restaurants on page 122
+2026-01-29 23:01:04,375 [INFO] Page 122/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:04,375 [INFO] Fetching listing page 123
+2026-01-29 23:01:05,235 [INFO] Found 0 restaurants on page 123
+2026-01-29 23:01:05,235 [INFO] Page 123/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:05,235 [INFO] Fetching listing page 124
+2026-01-29 23:01:05,948 [INFO] Found 0 restaurants on page 124
+2026-01-29 23:01:05,949 [INFO] Page 124/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:05,949 [INFO] Fetching listing page 125
+2026-01-29 23:01:06,744 [INFO] Found 0 restaurants on page 125
+2026-01-29 23:01:06,744 [INFO] Page 125/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:06,744 [INFO] Fetching listing page 126
+2026-01-29 23:01:07,423 [INFO] Found 0 restaurants on page 126
+2026-01-29 23:01:07,424 [INFO] Page 126/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:07,424 [INFO] Fetching listing page 127
+2026-01-29 23:01:08,077 [INFO] Found 0 restaurants on page 127
+2026-01-29 23:01:08,078 [INFO] Page 127/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:08,078 [INFO] Fetching listing page 128
+2026-01-29 23:01:08,763 [INFO] Found 0 restaurants on page 128
+2026-01-29 23:01:08,763 [INFO] Page 128/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:08,763 [INFO] Fetching listing page 129
+2026-01-29 23:01:09,645 [INFO] Found 0 restaurants on page 129
+2026-01-29 23:01:09,646 [INFO] Page 129/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:09,646 [INFO] Fetching listing page 130
+2026-01-29 23:01:10,397 [INFO] Found 0 restaurants on page 130
+2026-01-29 23:01:10,397 [INFO] Page 130/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:10,397 [INFO] Fetching listing page 131
+2026-01-29 23:01:11,112 [INFO] Found 0 restaurants on page 131
+2026-01-29 23:01:11,112 [INFO] Page 131/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:11,112 [INFO] Fetching listing page 132
+2026-01-29 23:01:11,942 [INFO] Found 0 restaurants on page 132
+2026-01-29 23:01:11,942 [INFO] Page 132/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:11,943 [INFO] Fetching listing page 133
+2026-01-29 23:01:13,676 [INFO] Found 0 restaurants on page 133
+2026-01-29 23:01:13,677 [INFO] Page 133/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:13,677 [INFO] Fetching listing page 134
+2026-01-29 23:01:14,629 [INFO] Found 0 restaurants on page 134
+2026-01-29 23:01:14,630 [INFO] Page 134/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:14,630 [INFO] Fetching listing page 135
+2026-01-29 23:01:15,236 [INFO] Found 0 restaurants on page 135
+2026-01-29 23:01:15,237 [INFO] Page 135/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:15,237 [INFO] Fetching listing page 136
+2026-01-29 23:01:15,789 [INFO] Found 0 restaurants on page 136
+2026-01-29 23:01:15,790 [INFO] Page 136/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:15,790 [INFO] Fetching listing page 137
+2026-01-29 23:01:16,496 [INFO] Found 0 restaurants on page 137
+2026-01-29 23:01:16,496 [INFO] Page 137/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:16,496 [INFO] Fetching listing page 138
+2026-01-29 23:01:17,558 [INFO] Found 0 restaurants on page 138
+2026-01-29 23:01:17,558 [INFO] Page 138/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:17,558 [INFO] Fetching listing page 139
+2026-01-29 23:01:18,583 [INFO] Found 0 restaurants on page 139
+2026-01-29 23:01:18,583 [INFO] Page 139/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:18,583 [INFO] Fetching listing page 140
+2026-01-29 23:01:19,318 [INFO] Found 0 restaurants on page 140
+2026-01-29 23:01:19,318 [INFO] Page 140/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:19,318 [INFO] Fetching listing page 141
+2026-01-29 23:01:20,024 [INFO] Found 0 restaurants on page 141
+2026-01-29 23:01:20,025 [INFO] Page 141/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:20,025 [INFO] Fetching listing page 142
+2026-01-29 23:01:20,689 [INFO] Found 0 restaurants on page 142
+2026-01-29 23:01:20,689 [INFO] Page 142/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:20,689 [INFO] Fetching listing page 143
+2026-01-29 23:01:21,564 [INFO] Found 0 restaurants on page 143
+2026-01-29 23:01:21,564 [INFO] Page 143/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:21,564 [INFO] Fetching listing page 144
+2026-01-29 23:01:22,263 [INFO] Found 0 restaurants on page 144
+2026-01-29 23:01:22,263 [INFO] Page 144/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:22,263 [INFO] Fetching listing page 145
+2026-01-29 23:01:22,953 [INFO] Found 0 restaurants on page 145
+2026-01-29 23:01:22,953 [INFO] Page 145/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:22,953 [INFO] Fetching listing page 146
+2026-01-29 23:01:23,670 [INFO] Found 0 restaurants on page 146
+2026-01-29 23:01:23,670 [INFO] Page 146/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:23,670 [INFO] Fetching listing page 147
+2026-01-29 23:01:24,360 [INFO] Found 0 restaurants on page 147
+2026-01-29 23:01:24,361 [INFO] Page 147/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:24,361 [INFO] Fetching listing page 148
+2026-01-29 23:01:25,055 [INFO] Found 0 restaurants on page 148
+2026-01-29 23:01:25,056 [INFO] Page 148/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:25,056 [INFO] Fetching listing page 149
+2026-01-29 23:01:25,792 [INFO] Found 0 restaurants on page 149
+2026-01-29 23:01:25,793 [INFO] Page 149/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:25,793 [INFO] Fetching listing page 150
+2026-01-29 23:01:26,460 [INFO] Found 0 restaurants on page 150
+2026-01-29 23:01:26,460 [INFO] Page 150/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:26,460 [INFO] Fetching listing page 151
+2026-01-29 23:01:27,361 [INFO] Found 0 restaurants on page 151
+2026-01-29 23:01:27,362 [INFO] Page 151/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:27,362 [INFO] Fetching listing page 152
+2026-01-29 23:01:28,520 [INFO] Found 0 restaurants on page 152
+2026-01-29 23:01:28,521 [INFO] Page 152/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:28,521 [INFO] Fetching listing page 153
+2026-01-29 23:01:29,362 [INFO] Found 0 restaurants on page 153
+2026-01-29 23:01:29,362 [INFO] Page 153/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:29,362 [INFO] Fetching listing page 154
+2026-01-29 23:01:30,096 [INFO] Found 0 restaurants on page 154
+2026-01-29 23:01:30,096 [INFO] Page 154/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:30,097 [INFO] Fetching listing page 155
+2026-01-29 23:01:30,901 [INFO] Found 0 restaurants on page 155
+2026-01-29 23:01:30,902 [INFO] Page 155/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:30,902 [INFO] Fetching listing page 156
+2026-01-29 23:01:31,486 [INFO] Found 0 restaurants on page 156
+2026-01-29 23:01:31,487 [INFO] Page 156/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:31,487 [INFO] Fetching listing page 157
+2026-01-29 23:01:32,501 [INFO] Found 0 restaurants on page 157
+2026-01-29 23:01:32,502 [INFO] Page 157/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:32,502 [INFO] Fetching listing page 158
+2026-01-29 23:01:33,120 [INFO] Found 0 restaurants on page 158
+2026-01-29 23:01:33,120 [INFO] Page 158/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:33,120 [INFO] Fetching listing page 159
+2026-01-29 23:01:33,795 [INFO] Found 0 restaurants on page 159
+2026-01-29 23:01:33,795 [INFO] Page 159/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:33,796 [INFO] Fetching listing page 160
+2026-01-29 23:01:34,689 [INFO] Found 0 restaurants on page 160
+2026-01-29 23:01:34,690 [INFO] Page 160/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:34,690 [INFO] Fetching listing page 161
+2026-01-29 23:01:35,536 [INFO] Found 0 restaurants on page 161
+2026-01-29 23:01:35,537 [INFO] Page 161/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:35,537 [INFO] Fetching listing page 162
+2026-01-29 23:01:36,582 [INFO] Found 0 restaurants on page 162
+2026-01-29 23:01:36,582 [INFO] Page 162/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:36,582 [INFO] Fetching listing page 163
+2026-01-29 23:01:37,435 [INFO] Found 0 restaurants on page 163
+2026-01-29 23:01:37,436 [INFO] Page 163/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:37,436 [INFO] Fetching listing page 164
+2026-01-29 23:01:38,213 [INFO] Found 0 restaurants on page 164
+2026-01-29 23:01:38,213 [INFO] Page 164/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:38,213 [INFO] Fetching listing page 165
+2026-01-29 23:01:39,082 [INFO] Found 0 restaurants on page 165
+2026-01-29 23:01:39,082 [INFO] Page 165/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:39,082 [INFO] Fetching listing page 166
+2026-01-29 23:01:39,739 [INFO] Found 0 restaurants on page 166
+2026-01-29 23:01:39,740 [INFO] Page 166/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:39,740 [INFO] Fetching listing page 167
+2026-01-29 23:01:40,467 [INFO] Found 0 restaurants on page 167
+2026-01-29 23:01:40,468 [INFO] Page 167/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:40,468 [INFO] Fetching listing page 168
+2026-01-29 23:01:41,486 [INFO] Found 0 restaurants on page 168
+2026-01-29 23:01:41,487 [INFO] Page 168/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:41,487 [INFO] Fetching listing page 169
+2026-01-29 23:01:42,089 [INFO] Found 0 restaurants on page 169
+2026-01-29 23:01:42,089 [INFO] Page 169/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:42,089 [INFO] Fetching listing page 170
+2026-01-29 23:01:42,707 [INFO] Found 0 restaurants on page 170
+2026-01-29 23:01:42,707 [INFO] Page 170/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:42,707 [INFO] Fetching listing page 171
+2026-01-29 23:01:43,204 [INFO] Found 0 restaurants on page 171
+2026-01-29 23:01:43,205 [INFO] Page 171/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:43,205 [INFO] Fetching listing page 172
+2026-01-29 23:01:43,779 [INFO] Found 0 restaurants on page 172
+2026-01-29 23:01:43,779 [INFO] Page 172/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:43,779 [INFO] Fetching listing page 173
+2026-01-29 23:01:44,398 [INFO] Found 0 restaurants on page 173
+2026-01-29 23:01:44,398 [INFO] Page 173/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:44,398 [INFO] Fetching listing page 174
+2026-01-29 23:01:44,997 [INFO] Found 0 restaurants on page 174
+2026-01-29 23:01:44,998 [INFO] Page 174/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:44,998 [INFO] Fetching listing page 175
+2026-01-29 23:01:45,724 [INFO] Found 0 restaurants on page 175
+2026-01-29 23:01:45,724 [INFO] Page 175/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:45,724 [INFO] Fetching listing page 176
+2026-01-29 23:01:46,435 [INFO] Found 0 restaurants on page 176
+2026-01-29 23:01:46,436 [INFO] Page 176/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:46,436 [INFO] Fetching listing page 177
+2026-01-29 23:01:47,129 [INFO] Found 0 restaurants on page 177
+2026-01-29 23:01:47,130 [INFO] Page 177/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:47,130 [INFO] Fetching listing page 178
+2026-01-29 23:01:48,047 [INFO] Found 0 restaurants on page 178
+2026-01-29 23:01:48,047 [INFO] Page 178/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:48,047 [INFO] Fetching listing page 179
+2026-01-29 23:01:48,736 [INFO] Found 0 restaurants on page 179
+2026-01-29 23:01:48,736 [INFO] Page 179/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:48,736 [INFO] Fetching listing page 180
+2026-01-29 23:01:49,404 [INFO] Found 0 restaurants on page 180
+2026-01-29 23:01:49,404 [INFO] Page 180/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:49,404 [INFO] Fetching listing page 181
+2026-01-29 23:01:50,121 [INFO] Found 0 restaurants on page 181
+2026-01-29 23:01:50,121 [INFO] Page 181/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:50,121 [INFO] Fetching listing page 182
+2026-01-29 23:01:50,787 [INFO] Found 0 restaurants on page 182
+2026-01-29 23:01:50,788 [INFO] Page 182/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:50,788 [INFO] Fetching listing page 183
+2026-01-29 23:01:51,471 [INFO] Found 0 restaurants on page 183
+2026-01-29 23:01:51,472 [INFO] Page 183/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:51,472 [INFO] Fetching listing page 184
+2026-01-29 23:01:52,215 [INFO] Found 0 restaurants on page 184
+2026-01-29 23:01:52,216 [INFO] Page 184/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:52,216 [INFO] Fetching listing page 185
+2026-01-29 23:01:52,893 [INFO] Found 0 restaurants on page 185
+2026-01-29 23:01:52,893 [INFO] Page 185/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:52,893 [INFO] Fetching listing page 186
+2026-01-29 23:01:53,791 [INFO] Found 0 restaurants on page 186
+2026-01-29 23:01:53,791 [INFO] Page 186/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:53,791 [INFO] Fetching listing page 187
+2026-01-29 23:01:54,486 [INFO] Found 0 restaurants on page 187
+2026-01-29 23:01:54,487 [INFO] Page 187/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:54,487 [INFO] Fetching listing page 188
+2026-01-29 23:01:55,162 [INFO] Found 0 restaurants on page 188
+2026-01-29 23:01:55,162 [INFO] Page 188/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:55,162 [INFO] Fetching listing page 189
+2026-01-29 23:01:55,886 [INFO] Found 0 restaurants on page 189
+2026-01-29 23:01:55,887 [INFO] Page 189/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:55,887 [INFO] Fetching listing page 190
+2026-01-29 23:01:56,704 [INFO] Found 0 restaurants on page 190
+2026-01-29 23:01:56,704 [INFO] Page 190/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:56,704 [INFO] Fetching listing page 191
+2026-01-29 23:01:57,424 [INFO] Found 0 restaurants on page 191
+2026-01-29 23:01:57,424 [INFO] Page 191/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:57,424 [INFO] Fetching listing page 192
+2026-01-29 23:01:57,964 [INFO] Found 0 restaurants on page 192
+2026-01-29 23:01:57,965 [INFO] Page 192/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:57,965 [INFO] Fetching listing page 193
+2026-01-29 23:01:58,638 [INFO] Found 0 restaurants on page 193
+2026-01-29 23:01:58,639 [INFO] Page 193/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:58,639 [INFO] Fetching listing page 194
+2026-01-29 23:01:59,361 [INFO] Found 0 restaurants on page 194
+2026-01-29 23:01:59,361 [INFO] Page 194/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:59,361 [INFO] Fetching listing page 195
+2026-01-29 23:01:59,920 [INFO] Found 0 restaurants on page 195
+2026-01-29 23:01:59,921 [INFO] Page 195/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:01:59,921 [INFO] Fetching listing page 196
+2026-01-29 23:02:00,603 [INFO] Found 0 restaurants on page 196
+2026-01-29 23:02:00,603 [INFO] Page 196/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:00,604 [INFO] Fetching listing page 197
+2026-01-29 23:02:01,288 [INFO] Found 0 restaurants on page 197
+2026-01-29 23:02:01,289 [INFO] Page 197/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:01,289 [INFO] Fetching listing page 198
+2026-01-29 23:02:01,981 [INFO] Found 0 restaurants on page 198
+2026-01-29 23:02:01,982 [INFO] Page 198/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:01,982 [INFO] Fetching listing page 199
+2026-01-29 23:02:02,707 [INFO] Found 0 restaurants on page 199
+2026-01-29 23:02:02,707 [INFO] Page 199/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:02,707 [INFO] Fetching listing page 200
+2026-01-29 23:02:03,376 [INFO] Found 0 restaurants on page 200
+2026-01-29 23:02:03,376 [INFO] Page 200/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:03,376 [INFO] Fetching listing page 201
+2026-01-29 23:02:04,079 [INFO] Found 0 restaurants on page 201
+2026-01-29 23:02:04,080 [INFO] Page 201/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:04,080 [INFO] Fetching listing page 202
+2026-01-29 23:02:04,802 [INFO] Found 0 restaurants on page 202
+2026-01-29 23:02:04,803 [INFO] Page 202/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:04,803 [INFO] Fetching listing page 203
+2026-01-29 23:02:05,619 [INFO] Found 0 restaurants on page 203
+2026-01-29 23:02:05,620 [INFO] Page 203/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:05,620 [INFO] Fetching listing page 204
+2026-01-29 23:02:06,377 [INFO] Found 0 restaurants on page 204
+2026-01-29 23:02:06,377 [INFO] Page 204/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:06,377 [INFO] Fetching listing page 205
+2026-01-29 23:02:07,040 [INFO] Found 0 restaurants on page 205
+2026-01-29 23:02:07,040 [INFO] Page 205/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:07,040 [INFO] Fetching listing page 206
+2026-01-29 23:02:07,752 [INFO] Found 0 restaurants on page 206
+2026-01-29 23:02:07,752 [INFO] Page 206/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:07,752 [INFO] Fetching listing page 207
+2026-01-29 23:02:08,437 [INFO] Found 0 restaurants on page 207
+2026-01-29 23:02:08,437 [INFO] Page 207/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:08,437 [INFO] Fetching listing page 208
+2026-01-29 23:02:09,159 [INFO] Found 0 restaurants on page 208
+2026-01-29 23:02:09,159 [INFO] Page 208/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:09,159 [INFO] Fetching listing page 209
+2026-01-29 23:02:09,813 [INFO] Found 0 restaurants on page 209
+2026-01-29 23:02:09,813 [INFO] Page 209/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:09,813 [INFO] Fetching listing page 210
+2026-01-29 23:02:10,566 [INFO] Found 0 restaurants on page 210
+2026-01-29 23:02:10,567 [INFO] Page 210/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:10,567 [INFO] Fetching listing page 211
+2026-01-29 23:02:11,231 [INFO] Found 0 restaurants on page 211
+2026-01-29 23:02:11,232 [INFO] Page 211/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:11,232 [INFO] Fetching listing page 212
+2026-01-29 23:02:11,952 [INFO] Found 0 restaurants on page 212
+2026-01-29 23:02:11,952 [INFO] Page 212/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:11,952 [INFO] Fetching listing page 213
+2026-01-29 23:02:12,695 [INFO] Found 0 restaurants on page 213
+2026-01-29 23:02:12,695 [INFO] Page 213/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:12,695 [INFO] Fetching listing page 214
+2026-01-29 23:02:13,351 [INFO] Found 0 restaurants on page 214
+2026-01-29 23:02:13,352 [INFO] Page 214/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:13,352 [INFO] Fetching listing page 215
+2026-01-29 23:02:13,903 [INFO] Found 0 restaurants on page 215
+2026-01-29 23:02:13,903 [INFO] Page 215/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:13,903 [INFO] Fetching listing page 216
+2026-01-29 23:02:14,637 [INFO] Found 0 restaurants on page 216
+2026-01-29 23:02:14,638 [INFO] Page 216/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:14,638 [INFO] Fetching listing page 217
+2026-01-29 23:02:15,239 [INFO] Found 0 restaurants on page 217
+2026-01-29 23:02:15,239 [INFO] Page 217/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:15,239 [INFO] Fetching listing page 218
+2026-01-29 23:02:15,883 [INFO] Found 0 restaurants on page 218
+2026-01-29 23:02:15,883 [INFO] Page 218/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:15,883 [INFO] Fetching listing page 219
+2026-01-29 23:02:16,628 [INFO] Found 0 restaurants on page 219
+2026-01-29 23:02:16,628 [INFO] Page 219/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:16,629 [INFO] Fetching listing page 220
+2026-01-29 23:02:17,180 [INFO] Found 0 restaurants on page 220
+2026-01-29 23:02:17,181 [INFO] Page 220/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:17,181 [INFO] Fetching listing page 221
+2026-01-29 23:02:17,742 [INFO] Found 0 restaurants on page 221
+2026-01-29 23:02:17,742 [INFO] Page 221/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:17,742 [INFO] Fetching listing page 222
+2026-01-29 23:02:18,384 [INFO] Found 0 restaurants on page 222
+2026-01-29 23:02:18,385 [INFO] Page 222/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:18,385 [INFO] Fetching listing page 223
+2026-01-29 23:02:18,877 [INFO] Found 0 restaurants on page 223
+2026-01-29 23:02:18,878 [INFO] Page 223/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:18,878 [INFO] Fetching listing page 224
+2026-01-29 23:02:19,432 [INFO] Found 0 restaurants on page 224
+2026-01-29 23:02:19,432 [INFO] Page 224/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:19,432 [INFO] Fetching listing page 225
+2026-01-29 23:02:20,011 [INFO] Found 0 restaurants on page 225
+2026-01-29 23:02:20,012 [INFO] Page 225/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:20,012 [INFO] Fetching listing page 226
+2026-01-29 23:02:20,540 [INFO] Found 0 restaurants on page 226
+2026-01-29 23:02:20,540 [INFO] Page 226/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:20,540 [INFO] Fetching listing page 227
+2026-01-29 23:02:21,052 [INFO] Found 0 restaurants on page 227
+2026-01-29 23:02:21,053 [INFO] Page 227/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:21,053 [INFO] Fetching listing page 228
+2026-01-29 23:02:21,616 [INFO] Found 0 restaurants on page 228
+2026-01-29 23:02:21,617 [INFO] Page 228/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:21,617 [INFO] Fetching listing page 229
+2026-01-29 23:02:22,298 [INFO] Found 0 restaurants on page 229
+2026-01-29 23:02:22,298 [INFO] Page 229/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:22,298 [INFO] Fetching listing page 230
+2026-01-29 23:02:23,175 [INFO] Found 0 restaurants on page 230
+2026-01-29 23:02:23,176 [INFO] Page 230/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:23,176 [INFO] Fetching listing page 231
+2026-01-29 23:02:23,871 [INFO] Found 0 restaurants on page 231
+2026-01-29 23:02:23,871 [INFO] Page 231/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:23,871 [INFO] Fetching listing page 232
+2026-01-29 23:02:24,724 [INFO] Found 0 restaurants on page 232
+2026-01-29 23:02:24,724 [INFO] Page 232/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:24,724 [INFO] Fetching listing page 233
+2026-01-29 23:02:25,414 [INFO] Found 0 restaurants on page 233
+2026-01-29 23:02:25,414 [INFO] Page 233/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:25,414 [INFO] Fetching listing page 234
+2026-01-29 23:02:26,136 [INFO] Found 0 restaurants on page 234
+2026-01-29 23:02:26,137 [INFO] Page 234/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:26,137 [INFO] Fetching listing page 235
+2026-01-29 23:02:27,344 [INFO] Found 0 restaurants on page 235
+2026-01-29 23:02:27,345 [INFO] Page 235/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:27,345 [INFO] Fetching listing page 236
+2026-01-29 23:02:28,382 [INFO] Found 0 restaurants on page 236
+2026-01-29 23:02:28,382 [INFO] Page 236/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:28,382 [INFO] Fetching listing page 237
+2026-01-29 23:02:29,248 [INFO] Found 0 restaurants on page 237
+2026-01-29 23:02:29,248 [INFO] Page 237/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:29,248 [INFO] Fetching listing page 238
+2026-01-29 23:02:30,137 [INFO] Found 0 restaurants on page 238
+2026-01-29 23:02:30,137 [INFO] Page 238/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:30,137 [INFO] Fetching listing page 239
+2026-01-29 23:02:30,819 [INFO] Found 0 restaurants on page 239
+2026-01-29 23:02:30,820 [INFO] Page 239/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:30,820 [INFO] Fetching listing page 240
+2026-01-29 23:02:31,535 [INFO] Found 0 restaurants on page 240
+2026-01-29 23:02:31,535 [INFO] Page 240/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:31,535 [INFO] Fetching listing page 241
+2026-01-29 23:02:32,213 [INFO] Found 0 restaurants on page 241
+2026-01-29 23:02:32,213 [INFO] Page 241/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:32,213 [INFO] Fetching listing page 242
+2026-01-29 23:02:33,113 [INFO] Found 0 restaurants on page 242
+2026-01-29 23:02:33,114 [INFO] Page 242/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:33,114 [INFO] Fetching listing page 243
+2026-01-29 23:02:33,800 [INFO] Found 0 restaurants on page 243
+2026-01-29 23:02:33,801 [INFO] Page 243/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:33,801 [INFO] Fetching listing page 244
+2026-01-29 23:02:34,650 [INFO] Found 0 restaurants on page 244
+2026-01-29 23:02:34,651 [INFO] Page 244/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:34,651 [INFO] Fetching listing page 245
+2026-01-29 23:02:35,503 [INFO] Found 0 restaurants on page 245
+2026-01-29 23:02:35,504 [INFO] Page 245/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:35,504 [INFO] Fetching listing page 246
+2026-01-29 23:02:36,257 [INFO] Found 0 restaurants on page 246
+2026-01-29 23:02:36,258 [INFO] Page 246/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:36,258 [INFO] Fetching listing page 247
+2026-01-29 23:02:36,939 [INFO] Found 0 restaurants on page 247
+2026-01-29 23:02:36,940 [INFO] Page 247/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:36,940 [INFO] Fetching listing page 248
+2026-01-29 23:02:37,476 [INFO] Found 0 restaurants on page 248
+2026-01-29 23:02:37,477 [INFO] Page 248/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:37,477 [INFO] Fetching listing page 249
+2026-01-29 23:02:38,160 [INFO] Found 0 restaurants on page 249
+2026-01-29 23:02:38,161 [INFO] Page 249/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:38,161 [INFO] Fetching listing page 250
+2026-01-29 23:02:38,948 [INFO] Found 0 restaurants on page 250
+2026-01-29 23:02:38,948 [INFO] Page 250/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:38,948 [INFO] Fetching listing page 251
+2026-01-29 23:02:39,696 [INFO] Found 0 restaurants on page 251
+2026-01-29 23:02:39,697 [INFO] Page 251/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:39,697 [INFO] Fetching listing page 252
+2026-01-29 23:02:40,419 [INFO] Found 0 restaurants on page 252
+2026-01-29 23:02:40,419 [INFO] Page 252/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:40,419 [INFO] Fetching listing page 253
+2026-01-29 23:02:41,128 [INFO] Found 0 restaurants on page 253
+2026-01-29 23:02:41,128 [INFO] Page 253/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:41,128 [INFO] Fetching listing page 254
+2026-01-29 23:02:41,792 [INFO] Found 0 restaurants on page 254
+2026-01-29 23:02:41,793 [INFO] Page 254/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:41,793 [INFO] Fetching listing page 255
+2026-01-29 23:02:42,517 [INFO] Found 0 restaurants on page 255
+2026-01-29 23:02:42,518 [INFO] Page 255/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:42,518 [INFO] Fetching listing page 256
+2026-01-29 23:02:43,274 [INFO] Found 0 restaurants on page 256
+2026-01-29 23:02:43,274 [INFO] Page 256/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:43,274 [INFO] Fetching listing page 257
+2026-01-29 23:02:44,120 [INFO] Found 0 restaurants on page 257
+2026-01-29 23:02:44,121 [INFO] Page 257/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:44,121 [INFO] Fetching listing page 258
+2026-01-29 23:02:44,816 [INFO] Found 0 restaurants on page 258
+2026-01-29 23:02:44,817 [INFO] Page 258/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:44,817 [INFO] Fetching listing page 259
+2026-01-29 23:02:45,495 [INFO] Found 0 restaurants on page 259
+2026-01-29 23:02:45,496 [INFO] Page 259/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:45,496 [INFO] Fetching listing page 260
+2026-01-29 23:02:46,220 [INFO] Found 0 restaurants on page 260
+2026-01-29 23:02:46,220 [INFO] Page 260/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:46,220 [INFO] Fetching listing page 261
+2026-01-29 23:02:47,460 [INFO] Found 0 restaurants on page 261
+2026-01-29 23:02:47,460 [INFO] Page 261/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:47,460 [INFO] Fetching listing page 262
+2026-01-29 23:02:48,463 [INFO] Found 0 restaurants on page 262
+2026-01-29 23:02:48,464 [INFO] Page 262/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:48,464 [INFO] Fetching listing page 263
+2026-01-29 23:02:49,318 [INFO] Found 0 restaurants on page 263
+2026-01-29 23:02:49,318 [INFO] Page 263/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:49,318 [INFO] Fetching listing page 264
+2026-01-29 23:02:50,057 [INFO] Found 0 restaurants on page 264
+2026-01-29 23:02:50,057 [INFO] Page 264/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:50,058 [INFO] Fetching listing page 265
+2026-01-29 23:02:50,611 [INFO] Found 0 restaurants on page 265
+2026-01-29 23:02:50,611 [INFO] Page 265/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:50,612 [INFO] Fetching listing page 266
+2026-01-29 23:02:51,254 [INFO] Found 0 restaurants on page 266
+2026-01-29 23:02:51,255 [INFO] Page 266/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:51,255 [INFO] Fetching listing page 267
+2026-01-29 23:02:51,979 [INFO] Found 0 restaurants on page 267
+2026-01-29 23:02:51,979 [INFO] Page 267/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:51,979 [INFO] Fetching listing page 268
+2026-01-29 23:02:52,596 [INFO] Found 0 restaurants on page 268
+2026-01-29 23:02:52,597 [INFO] Page 268/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:52,597 [INFO] Fetching listing page 269
+2026-01-29 23:02:53,333 [INFO] Found 0 restaurants on page 269
+2026-01-29 23:02:53,334 [INFO] Page 269/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:53,334 [INFO] Fetching listing page 270
+2026-01-29 23:02:53,886 [INFO] Found 0 restaurants on page 270
+2026-01-29 23:02:53,887 [INFO] Page 270/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:53,887 [INFO] Fetching listing page 271
+2026-01-29 23:02:54,683 [INFO] Found 0 restaurants on page 271
+2026-01-29 23:02:54,683 [INFO] Page 271/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:54,683 [INFO] Fetching listing page 272
+2026-01-29 23:02:55,384 [INFO] Found 0 restaurants on page 272
+2026-01-29 23:02:55,384 [INFO] Page 272/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:55,384 [INFO] Fetching listing page 273
+2026-01-29 23:02:55,929 [INFO] Found 0 restaurants on page 273
+2026-01-29 23:02:55,930 [INFO] Page 273/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:55,930 [INFO] Fetching listing page 274
+2026-01-29 23:02:56,465 [INFO] Found 0 restaurants on page 274
+2026-01-29 23:02:56,465 [INFO] Page 274/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:56,465 [INFO] Fetching listing page 275
+2026-01-29 23:02:57,030 [INFO] Found 0 restaurants on page 275
+2026-01-29 23:02:57,030 [INFO] Page 275/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:57,030 [INFO] Fetching listing page 276
+2026-01-29 23:02:57,650 [INFO] Found 0 restaurants on page 276
+2026-01-29 23:02:57,650 [INFO] Page 276/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:57,650 [INFO] Fetching listing page 277
+2026-01-29 23:02:58,409 [INFO] Found 0 restaurants on page 277
+2026-01-29 23:02:58,409 [INFO] Page 277/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:58,409 [INFO] Fetching listing page 278
+2026-01-29 23:02:58,957 [INFO] Found 0 restaurants on page 278
+2026-01-29 23:02:58,957 [INFO] Page 278/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:58,957 [INFO] Fetching listing page 279
+2026-01-29 23:02:59,579 [INFO] Found 0 restaurants on page 279
+2026-01-29 23:02:59,579 [INFO] Page 279/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:02:59,579 [INFO] Fetching listing page 280
+2026-01-29 23:03:00,324 [INFO] Found 0 restaurants on page 280
+2026-01-29 23:03:00,325 [INFO] Page 280/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:00,325 [INFO] Fetching listing page 281
+2026-01-29 23:03:00,993 [INFO] Found 0 restaurants on page 281
+2026-01-29 23:03:00,993 [INFO] Page 281/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:00,993 [INFO] Fetching listing page 282
+2026-01-29 23:03:01,814 [INFO] Found 0 restaurants on page 282
+2026-01-29 23:03:01,814 [INFO] Page 282/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:01,814 [INFO] Fetching listing page 283
+2026-01-29 23:03:02,484 [INFO] Found 0 restaurants on page 283
+2026-01-29 23:03:02,484 [INFO] Page 283/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:02,484 [INFO] Fetching listing page 284
+2026-01-29 23:03:03,193 [INFO] Found 0 restaurants on page 284
+2026-01-29 23:03:03,193 [INFO] Page 284/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:03,193 [INFO] Fetching listing page 285
+2026-01-29 23:03:03,881 [INFO] Found 0 restaurants on page 285
+2026-01-29 23:03:03,882 [INFO] Page 285/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:03,882 [INFO] Fetching listing page 286
+2026-01-29 23:03:04,438 [INFO] Found 0 restaurants on page 286
+2026-01-29 23:03:04,439 [INFO] Page 286/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:04,439 [INFO] Fetching listing page 287
+2026-01-29 23:03:05,081 [INFO] Found 0 restaurants on page 287
+2026-01-29 23:03:05,081 [INFO] Page 287/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:05,081 [INFO] Fetching listing page 288
+2026-01-29 23:03:05,779 [INFO] Found 0 restaurants on page 288
+2026-01-29 23:03:05,779 [INFO] Page 288/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:05,779 [INFO] Fetching listing page 289
+2026-01-29 23:03:06,502 [INFO] Found 0 restaurants on page 289
+2026-01-29 23:03:06,503 [INFO] Page 289/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:06,503 [INFO] Fetching listing page 290
+2026-01-29 23:03:07,240 [INFO] Found 0 restaurants on page 290
+2026-01-29 23:03:07,240 [INFO] Page 290/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:07,240 [INFO] Fetching listing page 291
+2026-01-29 23:03:07,947 [INFO] Found 0 restaurants on page 291
+2026-01-29 23:03:07,948 [INFO] Page 291/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:07,948 [INFO] Fetching listing page 292
+2026-01-29 23:03:08,634 [INFO] Found 0 restaurants on page 292
+2026-01-29 23:03:08,635 [INFO] Page 292/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:08,635 [INFO] Fetching listing page 293
+2026-01-29 23:03:09,451 [INFO] Found 0 restaurants on page 293
+2026-01-29 23:03:09,451 [INFO] Page 293/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:09,452 [INFO] Fetching listing page 294
+2026-01-29 23:03:10,263 [INFO] Found 0 restaurants on page 294
+2026-01-29 23:03:10,263 [INFO] Page 294/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:10,263 [INFO] Fetching listing page 295
+2026-01-29 23:03:10,919 [INFO] Found 0 restaurants on page 295
+2026-01-29 23:03:10,920 [INFO] Page 295/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:10,920 [INFO] Fetching listing page 296
+2026-01-29 23:03:11,614 [INFO] Found 0 restaurants on page 296
+2026-01-29 23:03:11,614 [INFO] Page 296/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:11,614 [INFO] Fetching listing page 297
+2026-01-29 23:03:12,304 [INFO] Found 0 restaurants on page 297
+2026-01-29 23:03:12,304 [INFO] Page 297/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:12,304 [INFO] Fetching listing page 298
+2026-01-29 23:03:12,983 [INFO] Found 0 restaurants on page 298
+2026-01-29 23:03:12,983 [INFO] Page 298/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:12,983 [INFO] Fetching listing page 299
+2026-01-29 23:03:13,644 [INFO] Found 0 restaurants on page 299
+2026-01-29 23:03:13,644 [INFO] Page 299/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:13,644 [INFO] Fetching listing page 300
+2026-01-29 23:03:14,367 [INFO] Found 0 restaurants on page 300
+2026-01-29 23:03:14,367 [INFO] Page 300/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:14,367 [INFO] Fetching listing page 301
+2026-01-29 23:03:14,987 [INFO] Found 0 restaurants on page 301
+2026-01-29 23:03:14,987 [INFO] Page 301/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:14,988 [INFO] Fetching listing page 302
+2026-01-29 23:03:15,626 [INFO] Found 0 restaurants on page 302
+2026-01-29 23:03:15,626 [INFO] Page 302/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:15,627 [INFO] Fetching listing page 303
+2026-01-29 23:03:16,299 [INFO] Found 0 restaurants on page 303
+2026-01-29 23:03:16,299 [INFO] Page 303/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:16,299 [INFO] Fetching listing page 304
+2026-01-29 23:03:17,148 [INFO] Found 0 restaurants on page 304
+2026-01-29 23:03:17,149 [INFO] Page 304/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:17,149 [INFO] Fetching listing page 305
+2026-01-29 23:03:17,864 [INFO] Found 0 restaurants on page 305
+2026-01-29 23:03:17,864 [INFO] Page 305/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:17,864 [INFO] Fetching listing page 306
+2026-01-29 23:03:18,636 [INFO] Found 0 restaurants on page 306
+2026-01-29 23:03:18,637 [INFO] Page 306/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:18,637 [INFO] Fetching listing page 307
+2026-01-29 23:03:19,445 [INFO] Found 0 restaurants on page 307
+2026-01-29 23:03:19,446 [INFO] Page 307/393 complete. Total: +96 ~0 =0 !0
+2026-01-29 23:03:19,446 [INFO] Fetching listing page 308
+2026-01-29 23:03:21,374 [INFO] Found 52 restaurants on page 308
+2026-01-29 23:04:08,337 [INFO] Batch complete (25/48), waiting 10s...
+2026-01-29 23:04:33,999 [INFO] Page 308/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:34,000 [INFO] Fetching listing page 309
+2026-01-29 23:04:34,540 [INFO] Found 0 restaurants on page 309
+2026-01-29 23:04:34,541 [INFO] Page 309/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:34,541 [INFO] Fetching listing page 310
+2026-01-29 23:04:35,132 [INFO] Found 0 restaurants on page 310
+2026-01-29 23:04:35,133 [INFO] Page 310/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:35,133 [INFO] Fetching listing page 311
+2026-01-29 23:04:35,832 [INFO] Found 0 restaurants on page 311
+2026-01-29 23:04:35,833 [INFO] Page 311/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:35,833 [INFO] Fetching listing page 312
+2026-01-29 23:04:36,353 [INFO] Found 0 restaurants on page 312
+2026-01-29 23:04:36,353 [INFO] Page 312/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:36,353 [INFO] Fetching listing page 313
+2026-01-29 23:04:36,987 [INFO] Found 0 restaurants on page 313
+2026-01-29 23:04:36,988 [INFO] Page 313/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:36,988 [INFO] Fetching listing page 314
+2026-01-29 23:04:37,525 [INFO] Found 0 restaurants on page 314
+2026-01-29 23:04:37,525 [INFO] Page 314/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:37,525 [INFO] Fetching listing page 315
+2026-01-29 23:04:38,166 [INFO] Found 0 restaurants on page 315
+2026-01-29 23:04:38,166 [INFO] Page 315/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:38,166 [INFO] Fetching listing page 316
+2026-01-29 23:04:39,012 [INFO] Found 0 restaurants on page 316
+2026-01-29 23:04:39,013 [INFO] Page 316/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:39,013 [INFO] Fetching listing page 317
+2026-01-29 23:04:39,673 [INFO] Found 0 restaurants on page 317
+2026-01-29 23:04:39,674 [INFO] Page 317/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:39,674 [INFO] Fetching listing page 318
+2026-01-29 23:04:40,298 [INFO] Found 0 restaurants on page 318
+2026-01-29 23:04:40,298 [INFO] Page 318/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:40,298 [INFO] Fetching listing page 319
+2026-01-29 23:04:40,883 [INFO] Found 0 restaurants on page 319
+2026-01-29 23:04:40,883 [INFO] Page 319/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:40,883 [INFO] Fetching listing page 320
+2026-01-29 23:04:41,610 [INFO] Found 0 restaurants on page 320
+2026-01-29 23:04:41,610 [INFO] Page 320/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:41,610 [INFO] Fetching listing page 321
+2026-01-29 23:04:42,245 [INFO] Found 0 restaurants on page 321
+2026-01-29 23:04:42,245 [INFO] Page 321/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:42,245 [INFO] Fetching listing page 322
+2026-01-29 23:04:42,903 [INFO] Found 0 restaurants on page 322
+2026-01-29 23:04:42,903 [INFO] Page 322/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:42,903 [INFO] Fetching listing page 323
+2026-01-29 23:04:43,570 [INFO] Found 0 restaurants on page 323
+2026-01-29 23:04:43,571 [INFO] Page 323/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:43,571 [INFO] Fetching listing page 324
+2026-01-29 23:04:44,173 [INFO] Found 0 restaurants on page 324
+2026-01-29 23:04:44,173 [INFO] Page 324/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:44,173 [INFO] Fetching listing page 325
+2026-01-29 23:04:44,762 [INFO] Found 0 restaurants on page 325
+2026-01-29 23:04:44,762 [INFO] Page 325/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:44,762 [INFO] Fetching listing page 326
+2026-01-29 23:04:45,324 [INFO] Found 0 restaurants on page 326
+2026-01-29 23:04:45,324 [INFO] Page 326/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:45,324 [INFO] Fetching listing page 327
+2026-01-29 23:04:45,945 [INFO] Found 0 restaurants on page 327
+2026-01-29 23:04:45,946 [INFO] Page 327/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:45,946 [INFO] Fetching listing page 328
+2026-01-29 23:04:46,535 [INFO] Found 0 restaurants on page 328
+2026-01-29 23:04:46,536 [INFO] Page 328/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:46,536 [INFO] Fetching listing page 329
+2026-01-29 23:04:47,177 [INFO] Found 0 restaurants on page 329
+2026-01-29 23:04:47,177 [INFO] Page 329/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:47,177 [INFO] Fetching listing page 330
+2026-01-29 23:04:47,803 [INFO] Found 0 restaurants on page 330
+2026-01-29 23:04:47,803 [INFO] Page 330/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:47,803 [INFO] Fetching listing page 331
+2026-01-29 23:04:48,449 [INFO] Found 0 restaurants on page 331
+2026-01-29 23:04:48,449 [INFO] Page 331/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:48,449 [INFO] Fetching listing page 332
+2026-01-29 23:04:49,165 [INFO] Found 0 restaurants on page 332
+2026-01-29 23:04:49,166 [INFO] Page 332/393 complete. Total: +144 ~0 =0 !0
+2026-01-29 23:04:49,166 [INFO] Fetching listing page 333
+2026-01-29 23:04:50,967 [INFO] Found 52 restaurants on page 333
+2026-01-29 23:05:17,070 [INFO] Batch complete (25/48), waiting 10s...
+2026-01-29 23:05:44,064 [INFO] Page 333/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:44,065 [INFO] Fetching listing page 334
+2026-01-29 23:05:44,783 [INFO] Found 0 restaurants on page 334
+2026-01-29 23:05:44,784 [INFO] Page 334/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:44,784 [INFO] Fetching listing page 335
+2026-01-29 23:05:45,456 [INFO] Found 0 restaurants on page 335
+2026-01-29 23:05:45,457 [INFO] Page 335/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:45,457 [INFO] Fetching listing page 336
+2026-01-29 23:05:46,135 [INFO] Found 0 restaurants on page 336
+2026-01-29 23:05:46,136 [INFO] Page 336/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:46,136 [INFO] Fetching listing page 337
+2026-01-29 23:05:46,886 [INFO] Found 0 restaurants on page 337
+2026-01-29 23:05:46,886 [INFO] Page 337/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:46,886 [INFO] Fetching listing page 338
+2026-01-29 23:05:47,557 [INFO] Found 0 restaurants on page 338
+2026-01-29 23:05:47,558 [INFO] Page 338/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:47,558 [INFO] Fetching listing page 339
+2026-01-29 23:05:48,261 [INFO] Found 0 restaurants on page 339
+2026-01-29 23:05:48,262 [INFO] Page 339/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:48,262 [INFO] Fetching listing page 340
+2026-01-29 23:05:48,981 [INFO] Found 0 restaurants on page 340
+2026-01-29 23:05:48,981 [INFO] Page 340/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:48,981 [INFO] Fetching listing page 341
+2026-01-29 23:05:49,678 [INFO] Found 0 restaurants on page 341
+2026-01-29 23:05:49,679 [INFO] Page 341/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:49,679 [INFO] Fetching listing page 342
+2026-01-29 23:05:50,427 [INFO] Found 0 restaurants on page 342
+2026-01-29 23:05:50,427 [INFO] Page 342/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:50,427 [INFO] Fetching listing page 343
+2026-01-29 23:05:51,154 [INFO] Found 0 restaurants on page 343
+2026-01-29 23:05:51,154 [INFO] Page 343/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:51,154 [INFO] Fetching listing page 344
+2026-01-29 23:05:51,900 [INFO] Found 0 restaurants on page 344
+2026-01-29 23:05:51,901 [INFO] Page 344/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:51,901 [INFO] Fetching listing page 345
+2026-01-29 23:05:52,640 [INFO] Found 0 restaurants on page 345
+2026-01-29 23:05:52,640 [INFO] Page 345/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:52,640 [INFO] Fetching listing page 346
+2026-01-29 23:05:53,362 [INFO] Found 0 restaurants on page 346
+2026-01-29 23:05:53,362 [INFO] Page 346/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:53,363 [INFO] Fetching listing page 347
+2026-01-29 23:05:54,090 [INFO] Found 0 restaurants on page 347
+2026-01-29 23:05:54,090 [INFO] Page 347/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:54,090 [INFO] Fetching listing page 348
+2026-01-29 23:05:54,895 [INFO] Found 0 restaurants on page 348
+2026-01-29 23:05:54,896 [INFO] Page 348/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:54,896 [INFO] Fetching listing page 349
+2026-01-29 23:05:55,652 [INFO] Found 0 restaurants on page 349
+2026-01-29 23:05:55,652 [INFO] Page 349/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:55,653 [INFO] Fetching listing page 350
+2026-01-29 23:05:56,376 [INFO] Found 0 restaurants on page 350
+2026-01-29 23:05:56,376 [INFO] Page 350/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:56,376 [INFO] Fetching listing page 351
+2026-01-29 23:05:57,117 [INFO] Found 0 restaurants on page 351
+2026-01-29 23:05:57,118 [INFO] Page 351/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:57,118 [INFO] Fetching listing page 352
+2026-01-29 23:05:57,836 [INFO] Found 0 restaurants on page 352
+2026-01-29 23:05:57,836 [INFO] Page 352/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:57,836 [INFO] Fetching listing page 353
+2026-01-29 23:05:58,577 [INFO] Found 0 restaurants on page 353
+2026-01-29 23:05:58,577 [INFO] Page 353/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:58,577 [INFO] Fetching listing page 354
+2026-01-29 23:05:59,248 [INFO] Found 0 restaurants on page 354
+2026-01-29 23:05:59,248 [INFO] Page 354/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:59,248 [INFO] Fetching listing page 355
+2026-01-29 23:05:59,919 [INFO] Found 0 restaurants on page 355
+2026-01-29 23:05:59,920 [INFO] Page 355/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:05:59,920 [INFO] Fetching listing page 356
+2026-01-29 23:06:00,640 [INFO] Found 0 restaurants on page 356
+2026-01-29 23:06:00,640 [INFO] Page 356/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:00,640 [INFO] Fetching listing page 357
+2026-01-29 23:06:01,338 [INFO] Found 0 restaurants on page 357
+2026-01-29 23:06:01,340 [INFO] Page 357/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:01,340 [INFO] Fetching listing page 358
+2026-01-29 23:06:02,134 [INFO] Found 0 restaurants on page 358
+2026-01-29 23:06:02,135 [INFO] Page 358/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:02,135 [INFO] Fetching listing page 359
+2026-01-29 23:06:02,864 [INFO] Found 0 restaurants on page 359
+2026-01-29 23:06:02,864 [INFO] Page 359/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:02,864 [INFO] Fetching listing page 360
+2026-01-29 23:06:03,646 [INFO] Found 0 restaurants on page 360
+2026-01-29 23:06:03,646 [INFO] Page 360/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:03,646 [INFO] Fetching listing page 361
+2026-01-29 23:06:04,370 [INFO] Found 0 restaurants on page 361
+2026-01-29 23:06:04,371 [INFO] Page 361/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:04,371 [INFO] Fetching listing page 362
+2026-01-29 23:06:05,065 [INFO] Found 0 restaurants on page 362
+2026-01-29 23:06:05,065 [INFO] Page 362/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:05,065 [INFO] Fetching listing page 363
+2026-01-29 23:06:05,723 [INFO] Found 0 restaurants on page 363
+2026-01-29 23:06:05,724 [INFO] Page 363/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:05,724 [INFO] Fetching listing page 364
+2026-01-29 23:06:06,418 [INFO] Found 0 restaurants on page 364
+2026-01-29 23:06:06,418 [INFO] Page 364/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:06,418 [INFO] Fetching listing page 365
+2026-01-29 23:06:07,120 [INFO] Found 0 restaurants on page 365
+2026-01-29 23:06:07,121 [INFO] Page 365/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:07,121 [INFO] Fetching listing page 366
+2026-01-29 23:06:07,823 [INFO] Found 0 restaurants on page 366
+2026-01-29 23:06:07,823 [INFO] Page 366/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:07,823 [INFO] Fetching listing page 367
+2026-01-29 23:06:08,483 [INFO] Found 0 restaurants on page 367
+2026-01-29 23:06:08,483 [INFO] Page 367/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:08,483 [INFO] Fetching listing page 368
+2026-01-29 23:06:09,195 [INFO] Found 0 restaurants on page 368
+2026-01-29 23:06:09,196 [INFO] Page 368/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:09,196 [INFO] Fetching listing page 369
+2026-01-29 23:06:09,897 [INFO] Found 0 restaurants on page 369
+2026-01-29 23:06:09,897 [INFO] Page 369/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:09,897 [INFO] Fetching listing page 370
+2026-01-29 23:06:10,613 [INFO] Found 0 restaurants on page 370
+2026-01-29 23:06:10,613 [INFO] Page 370/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:10,613 [INFO] Fetching listing page 371
+2026-01-29 23:06:11,391 [INFO] Found 0 restaurants on page 371
+2026-01-29 23:06:11,394 [INFO] Page 371/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:11,394 [INFO] Fetching listing page 372
+2026-01-29 23:06:12,073 [INFO] Found 0 restaurants on page 372
+2026-01-29 23:06:12,073 [INFO] Page 372/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:12,073 [INFO] Fetching listing page 373
+2026-01-29 23:06:12,826 [INFO] Found 0 restaurants on page 373
+2026-01-29 23:06:12,826 [INFO] Page 373/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:12,826 [INFO] Fetching listing page 374
+2026-01-29 23:06:13,504 [INFO] Found 0 restaurants on page 374
+2026-01-29 23:06:13,504 [INFO] Page 374/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:13,504 [INFO] Fetching listing page 375
+2026-01-29 23:06:14,246 [INFO] Found 0 restaurants on page 375
+2026-01-29 23:06:14,247 [INFO] Page 375/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:14,247 [INFO] Fetching listing page 376
+2026-01-29 23:06:15,053 [INFO] Found 0 restaurants on page 376
+2026-01-29 23:06:15,054 [INFO] Page 376/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:15,054 [INFO] Fetching listing page 377
+2026-01-29 23:06:15,834 [INFO] Found 0 restaurants on page 377
+2026-01-29 23:06:15,834 [INFO] Page 377/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:15,834 [INFO] Fetching listing page 378
+2026-01-29 23:06:16,653 [INFO] Found 0 restaurants on page 378
+2026-01-29 23:06:16,654 [INFO] Page 378/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:16,654 [INFO] Fetching listing page 379
+2026-01-29 23:06:17,370 [INFO] Found 0 restaurants on page 379
+2026-01-29 23:06:17,371 [INFO] Page 379/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:17,371 [INFO] Fetching listing page 380
+2026-01-29 23:06:18,103 [INFO] Found 0 restaurants on page 380
+2026-01-29 23:06:18,103 [INFO] Page 380/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:18,103 [INFO] Fetching listing page 381
+2026-01-29 23:06:18,881 [INFO] Found 0 restaurants on page 381
+2026-01-29 23:06:18,881 [INFO] Page 381/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:18,881 [INFO] Fetching listing page 382
+2026-01-29 23:06:19,573 [INFO] Found 0 restaurants on page 382
+2026-01-29 23:06:19,573 [INFO] Page 382/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:19,573 [INFO] Fetching listing page 383
+2026-01-29 23:06:20,309 [INFO] Found 0 restaurants on page 383
+2026-01-29 23:06:20,309 [INFO] Page 383/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:20,309 [INFO] Fetching listing page 384
+2026-01-29 23:06:20,968 [INFO] Found 0 restaurants on page 384
+2026-01-29 23:06:20,969 [INFO] Page 384/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:20,969 [INFO] Fetching listing page 385
+2026-01-29 23:06:21,720 [INFO] Found 0 restaurants on page 385
+2026-01-29 23:06:21,721 [INFO] Page 385/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:21,721 [INFO] Fetching listing page 386
+2026-01-29 23:06:22,462 [INFO] Found 0 restaurants on page 386
+2026-01-29 23:06:22,462 [INFO] Page 386/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:22,462 [INFO] Fetching listing page 387
+2026-01-29 23:06:23,253 [INFO] Found 0 restaurants on page 387
+2026-01-29 23:06:23,253 [INFO] Page 387/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:23,253 [INFO] Fetching listing page 388
+2026-01-29 23:06:23,964 [INFO] Found 0 restaurants on page 388
+2026-01-29 23:06:23,965 [INFO] Page 388/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:23,965 [INFO] Fetching listing page 389
+2026-01-29 23:06:24,716 [INFO] Found 0 restaurants on page 389
+2026-01-29 23:06:24,716 [INFO] Page 389/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:24,716 [INFO] Fetching listing page 390
+2026-01-29 23:06:25,463 [INFO] Found 0 restaurants on page 390
+2026-01-29 23:06:25,464 [INFO] Page 390/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:25,464 [INFO] Fetching listing page 391
+2026-01-29 23:06:26,126 [INFO] Found 0 restaurants on page 391
+2026-01-29 23:06:26,127 [INFO] Page 391/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:26,127 [INFO] Fetching listing page 392
+2026-01-29 23:06:26,864 [INFO] Found 0 restaurants on page 392
+2026-01-29 23:06:26,865 [INFO] Page 392/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:26,865 [INFO] Fetching listing page 393
+2026-01-29 23:06:27,564 [INFO] Found 0 restaurants on page 393
+2026-01-29 23:06:27,564 [INFO] Page 393/393 complete. Total: +192 ~0 =0 !0
+2026-01-29 23:06:27,735 [INFO] Browser stopped
+2026-01-29 23:06:27,736 [INFO] Wrote 192 changes to additions.txt
+2026-01-29 23:06:27,736 [INFO] Full scrape complete!
+2026-01-29 23:06:27,736 [INFO] Final stats: {'added': 192, 'modified': 0, 'unchanged': 0, 'failed': 0}
+2026-01-29 23:06:27,737 [INFO] Total restaurants in DB: 192
+2026-01-30 08:36:27,031 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0008)
+2026-01-30 08:36:27,031 [INFO] Tor control port connected
+2026-01-30 08:36:27,031 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 08:36:27,031 [INFO] Proxy pool initialized with 1 proxies
+2026-01-30 08:36:27,031 [INFO] Starting full scrape from page 1 (max 50)
+2026-01-30 08:36:28,011 [INFO] Browser started
+2026-01-30 08:36:28,011 [INFO] Fetching listing page 1
+2026-01-30 08:36:58,721 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/es/restaurants
+Call log:
+  - navigating to "https://guide.michelin.com/en/es/restaurants", waiting until "networkidle"
+
+2026-01-30 08:36:58,736 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 08:36:58,744 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 08:36:58,744 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 08:37:28,868 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/es/restaurants
+Call log:
+  - navigating to "https://guide.michelin.com/en/es/restaurants", waiting until "networkidle"
+
+2026-01-30 08:37:28,869 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 08:37:28,877 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 08:37:28,877 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 08:37:59,001 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/es/restaurants
+Call log:
+  - navigating to "https://guide.michelin.com/en/es/restaurants", waiting until "networkidle"
+
+2026-01-30 08:37:59,003 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 08:37:59,011 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 08:37:59,012 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 08:37:59,012 [INFO] Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2026-01-30 08:37:59,012 [INFO] Empty page 1 (1/3 consecutive)
+2026-01-30 08:38:29,398 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/es/restaurants
+Call log:
+  - navigating to "https://guide.michelin.com/en/es/restaurants", waiting until "networkidle"
+
+2026-01-30 08:38:29,400 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 08:38:29,406 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 08:38:29,407 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 08:38:59,526 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/es/restaurants
+Call log:
+  - navigating to "https://guide.michelin.com/en/es/restaurants", waiting until "networkidle"
+
+2026-01-30 08:38:59,528 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 08:38:59,539 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 08:38:59,539 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 08:39:29,663 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/es/restaurants
+Call log:
+  - navigating to "https://guide.michelin.com/en/es/restaurants", waiting until "networkidle"
+
+2026-01-30 08:39:29,664 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 08:39:29,671 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 08:39:29,671 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 08:39:29,672 [INFO] Page 1 complete. Total: +0 ~0 =0 !0
+2026-01-30 08:39:32,677 [INFO] Fetching listing page 2
+2026-01-30 08:40:02,922 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/es/restaurants/page/2
+Call log:
+  - navigating to "https://guide.michelin.com/en/es/restaurants/page/2", waiting until "networkidle"
+
+2026-01-30 08:40:02,941 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0004)
+2026-01-30 08:40:02,965 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 08:40:02,966 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 08:40:02,966 [INFO] Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2026-01-30 08:40:33,104 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/es/restaurants/page/2
+Call log:
+  - navigating to "https://guide.michelin.com/en/es/restaurants/page/2", waiting until "networkidle"
+
+2026-01-30 08:40:33,106 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 08:40:33,119 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 08:40:33,119 [INFO] Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
+2026-01-30 08:41:03,239 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/es/restaurants/page/2
+Call log:
+  - navigating to "https://guide.michelin.com/en/es/restaurants/page/2", waiting until "networkidle"
+
+2026-01-30 08:41:03,240 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 08:41:03,249 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 08:41:03,250 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 08:41:03,250 [INFO] Empty page 2 (2/3 consecutive)
+2026-01-30 08:41:03,250 [INFO] Page 2 complete. Total: +0 ~0 =0 !0
+2026-01-30 08:41:06,255 [INFO] Fetching listing page 3
+2026-01-30 08:41:36,382 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/es/restaurants/page/3
+Call log:
+  - navigating to "https://guide.michelin.com/en/es/restaurants/page/3", waiting until "networkidle"
+
+2026-01-30 08:41:36,383 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 08:41:36,390 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 08:41:36,390 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 08:42:06,516 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/es/restaurants/page/3
+Call log:
+  - navigating to "https://guide.michelin.com/en/es/restaurants/page/3", waiting until "networkidle"
+
+2026-01-30 08:42:06,518 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 08:42:06,532 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 08:42:06,532 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 08:42:36,636 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/es/restaurants/page/3
+Call log:
+  - navigating to "https://guide.michelin.com/en/es/restaurants/page/3", waiting until "networkidle"
+
+2026-01-30 08:42:36,638 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 08:42:36,645 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 08:42:36,645 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 08:42:36,645 [INFO] Empty page 3 (3/3 consecutive)
+2026-01-30 08:42:36,646 [INFO] Page 3 complete. Total: +0 ~0 =0 !0
+2026-01-30 08:42:39,651 [INFO] Early termination: 3 consecutive empty pages at page 3
+2026-01-30 08:42:39,819 [INFO] Browser stopped
+2026-01-30 08:42:39,821 [INFO] Full scrape complete!
+2026-01-30 08:42:39,821 [INFO] Final stats: {'added': 0, 'modified': 0, 'unchanged': 0, 'failed': 0}
+2026-01-30 08:42:39,823 [INFO] Total restaurants in DB: 0
+2026-01-30 09:28:06,765 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0013)
+2026-01-30 09:28:06,765 [INFO] Tor control port connected
+2026-01-30 09:28:06,766 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 09:28:06,766 [INFO] Proxy pool initialized with 1 proxies
+2026-01-30 09:28:06,766 [INFO] Starting full scrape from page 1 (max 50)
+2026-01-30 09:28:07,830 [INFO] Browser started
+2026-01-30 09:28:07,830 [INFO] Fetching listing page 1
+2026-01-30 09:28:21,886 [INFO] Found 52 restaurants on page 1
+2026-01-30 09:28:53,936 [INFO] Browser stopped
+2026-01-30 09:29:35,708 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 09:29:35,709 [INFO] Tor control port connected
+2026-01-30 09:29:35,709 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 09:29:35,709 [INFO] Proxy pool initialized with 1 proxies
+2026-01-30 09:29:35,709 [INFO] Starting full scrape from page 1 (max 50)
+2026-01-30 09:29:37,174 [INFO] Browser started
+2026-01-30 09:29:37,175 [INFO] Fetching listing page 1
+2026-01-30 09:29:45,423 [INFO] Found 52 restaurants on page 1
+2026-01-30 09:29:45,425 [INFO] Total restaurants on site: 1274
+2026-01-30 09:32:26,235 [INFO] Batch complete (25/52), waiting 10s...
+2026-01-30 09:36:12,687 [INFO] Batch complete (50/52), waiting 10s...
+2026-01-30 09:36:36,090 [INFO] Page 1 complete. Total: +52 ~0 =0 !0
+2026-01-30 09:36:39,096 [INFO] Fetching listing page 2
+2026-01-30 09:36:55,745 [INFO] Found 52 restaurants on page 2
+2026-01-30 09:42:43,495 [INFO] Batch complete (25/48), waiting 10s...
+2026-01-30 09:46:23,410 [INFO] Page 2 complete. Total: +100 ~0 =0 !0
+2026-01-30 09:46:26,415 [INFO] Fetching listing page 3
+2026-01-30 09:46:42,622 [INFO] Found 52 restaurants on page 3
+2026-01-30 09:49:39,155 [INFO] Batch complete (25/48), waiting 10s...
+2026-01-30 09:51:56,974 [INFO] Page 3 complete. Total: +148 ~0 =0 !0
+2026-01-30 09:51:59,980 [INFO] Fetching listing page 4
+2026-01-30 09:52:09,177 [INFO] Found 52 restaurants on page 4
+2026-01-30 09:53:38,789 [INFO] Batch complete (25/48), waiting 10s...
+2026-01-30 09:54:19,468 [INFO] Page 4 complete. Total: +196 ~0 =0 !0
+2026-01-30 09:54:22,473 [INFO] Fetching listing page 5
+2026-01-30 09:54:23,669 [INFO] Found 0 restaurants on page 5
+2026-01-30 09:54:23,669 [INFO] Empty page 5 (1/3 consecutive)
+2026-01-30 09:54:23,670 [INFO] Page 5 complete. Total: +196 ~0 =0 !0
+2026-01-30 09:54:23,674 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 09:54:23,684 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 09:54:23,685 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 09:54:26,690 [INFO] Fetching listing page 6
+2026-01-30 09:54:40,173 [INFO] Found 52 restaurants on page 6
+2026-01-30 09:58:49,332 [INFO] Batch complete (25/48), waiting 10s...
+2026-01-30 10:01:44,894 [INFO] Page 6 complete. Total: +244 ~0 =0 !0
+2026-01-30 10:01:47,899 [INFO] Fetching listing page 7
+2026-01-30 10:01:59,547 [INFO] Found 52 restaurants on page 7
+2026-01-30 10:03:51,476 [INFO] Batch complete (25/48), waiting 10s...
+2026-01-30 10:04:59,021 [INFO] Page 7 complete. Total: +292 ~0 =0 !0
+2026-01-30 10:05:02,027 [INFO] Fetching listing page 8
+2026-01-30 10:05:11,347 [INFO] Found 52 restaurants on page 8
+2026-01-30 10:08:28,431 [INFO] Batch complete (25/48), waiting 10s...
+2026-01-30 10:12:00,947 [INFO] Page 8 complete. Total: +340 ~0 =0 !0
+2026-01-30 10:12:03,952 [INFO] Fetching listing page 9
+2026-01-30 10:12:25,675 [INFO] Found 52 restaurants on page 9
+2026-01-30 10:16:02,683 [INFO] Batch complete (25/48), waiting 10s...
+2026-01-30 10:18:06,306 [INFO] Page 9 complete. Total: +388 ~0 =0 !0
+2026-01-30 10:18:09,311 [INFO] Fetching listing page 10
+2026-01-30 10:18:20,737 [INFO] Found 52 restaurants on page 10
+2026-01-30 10:20:52,817 [INFO] Batch complete (25/48), waiting 10s...
+2026-01-30 10:23:24,158 [INFO] Page 10 complete. Total: +436 ~0 =0 !0
+2026-01-30 10:23:24,163 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0004)
+2026-01-30 10:23:24,173 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:23:24,173 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:23:27,184 [INFO] Fetching listing page 11
+2026-01-30 10:23:40,869 [INFO] Found 52 restaurants on page 11
+2026-01-30 10:24:41,004 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://guide.michelin.com/en/comunidad-de-madrid/madrid/restaurant/kappo", waiting until "networkidle"
+
+2026-01-30 10:24:41,007 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 10:24:41,020 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:24:41,021 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:40:36,323 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://guide.michelin.com/en/galicia/lalin/restaurant/asturiano", waiting until "networkidle"
+
+2026-01-30 10:40:36,519 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 10:40:36,521 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:40:36,521 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:40:37,636 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_NETWORK_CHANGED at https://guide.michelin.com/en/galicia/lalin/restaurant/asturiano
+Call log:
+  - navigating to "https://guide.michelin.com/en/galicia/lalin/restaurant/asturiano", waiting until "networkidle"
+
+2026-01-30 10:40:46,520 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0005)
+2026-01-30 10:40:46,530 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:40:46,531 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:41:16,734 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/galicia/lalin/restaurant/asturiano
+Call log:
+  - navigating to "https://guide.michelin.com/en/galicia/lalin/restaurant/asturiano", waiting until "networkidle"
+
+2026-01-30 10:41:16,737 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0005)
+2026-01-30 10:41:16,748 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:41:16,749 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:45:00,211 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://guide.michelin.com/en/andalucia/jerez-de-la-frontera/restaurant/albala", waiting until "networkidle"
+
+2026-01-30 10:45:00,288 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 10:45:00,301 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:45:00,301 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:45:00,301 [INFO] Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2026-01-30 10:45:30,474 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/andalucia/jerez-de-la-frontera/restaurant/albala
+Call log:
+  - navigating to "https://guide.michelin.com/en/andalucia/jerez-de-la-frontera/restaurant/albala", waiting until "networkidle"
+
+2026-01-30 10:45:30,477 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 10:45:30,486 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:45:30,486 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:46:00,641 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/andalucia/jerez-de-la-frontera/restaurant/albala
+Call log:
+  - navigating to "https://guide.michelin.com/en/andalucia/jerez-de-la-frontera/restaurant/albala", waiting until "networkidle"
+
+2026-01-30 10:46:00,644 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 10:46:00,654 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:46:00,654 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:46:30,790 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/pais-vasco/larrabetzu/restaurant/eneko
+Call log:
+  - navigating to "https://guide.michelin.com/en/pais-vasco/larrabetzu/restaurant/eneko", waiting until "networkidle"
+
+2026-01-30 10:46:30,793 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 10:46:30,802 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:46:30,802 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:47:00,959 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/pais-vasco/larrabetzu/restaurant/eneko
+Call log:
+  - navigating to "https://guide.michelin.com/en/pais-vasco/larrabetzu/restaurant/eneko", waiting until "networkidle"
+
+2026-01-30 10:47:00,961 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 10:47:00,971 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:47:00,971 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:47:31,119 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/pais-vasco/larrabetzu/restaurant/eneko
+Call log:
+  - navigating to "https://guide.michelin.com/en/pais-vasco/larrabetzu/restaurant/eneko", waiting until "networkidle"
+
+2026-01-30 10:47:31,121 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 10:47:31,127 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:47:31,127 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:48:01,268 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/andalucia/linares/restaurant/los-sentidos
+Call log:
+  - navigating to "https://guide.michelin.com/en/andalucia/linares/restaurant/los-sentidos", waiting until "networkidle"
+
+2026-01-30 10:48:01,270 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 10:48:01,277 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:48:01,277 [INFO] Error while receiving a control message (SocketClosed): empty socket content
+2026-01-30 10:48:41,600 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/andalucia/linares/restaurant/los-sentidos
+Call log:
+  - navigating to "https://guide.michelin.com/en/andalucia/linares/restaurant/los-sentidos", waiting until "networkidle"
+
+2026-01-30 10:48:41,603 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 10:48:41,615 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:48:41,616 [INFO] Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
+2026-01-30 10:51:29,791 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://guide.michelin.com/en/andalucia/linares/restaurant/los-sentidos", waiting until "networkidle"
+
+2026-01-30 10:51:29,867 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0003)
+2026-01-30 10:51:29,942 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:51:29,942 [INFO] Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
+2026-01-30 10:52:01,893 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/catalunya/llafranc/restaurant/casamar
+Call log:
+  - navigating to "https://guide.michelin.com/en/catalunya/llafranc/restaurant/casamar", waiting until "networkidle"
+
+2026-01-30 10:52:01,897 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0003)
+2026-01-30 10:52:01,905 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:52:01,905 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:52:32,017 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/catalunya/llafranc/restaurant/casamar
+Call log:
+  - navigating to "https://guide.michelin.com/en/catalunya/llafranc/restaurant/casamar", waiting until "networkidle"
+
+2026-01-30 10:52:32,039 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 10:52:32,041 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:52:32,041 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:53:02,146 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/catalunya/llafranc/restaurant/casamar
+Call log:
+  - navigating to "https://guide.michelin.com/en/catalunya/llafranc/restaurant/casamar", waiting until "networkidle"
+
+2026-01-30 10:53:02,147 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 10:53:02,153 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:53:02,153 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:53:32,268 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/comunidad-foral-de-navarra/pamplona/restaurant/europa
+Call log:
+  - navigating to "https://guide.michelin.com/en/comunidad-foral-de-navarra/pamplona/restaurant/europa", waiting until "networkidle"
+
+2026-01-30 10:53:32,270 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 10:53:32,281 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:53:32,281 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:54:02,399 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/comunidad-foral-de-navarra/pamplona/restaurant/europa
+Call log:
+  - navigating to "https://guide.michelin.com/en/comunidad-foral-de-navarra/pamplona/restaurant/europa", waiting until "networkidle"
+
+2026-01-30 10:54:02,402 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0003)
+2026-01-30 10:54:02,411 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:54:02,411 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:54:02,411 [INFO] Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2026-01-30 10:54:32,535 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/comunidad-foral-de-navarra/pamplona/restaurant/europa
+Call log:
+  - navigating to "https://guide.michelin.com/en/comunidad-foral-de-navarra/pamplona/restaurant/europa", waiting until "networkidle"
+
+2026-01-30 10:54:32,538 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 10:54:32,547 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:54:32,548 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:55:02,661 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/galicia/vigo/restaurant/detapaencepa
+Call log:
+  - navigating to "https://guide.michelin.com/en/galicia/vigo/restaurant/detapaencepa", waiting until "networkidle"
+
+2026-01-30 10:55:02,663 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 10:55:02,673 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:55:02,673 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:55:32,800 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/galicia/vigo/restaurant/detapaencepa
+Call log:
+  - navigating to "https://guide.michelin.com/en/galicia/vigo/restaurant/detapaencepa", waiting until "networkidle"
+
+2026-01-30 10:55:32,809 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0004)
+2026-01-30 10:55:32,817 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:55:32,817 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:56:02,937 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/galicia/vigo/restaurant/detapaencepa
+Call log:
+  - navigating to "https://guide.michelin.com/en/galicia/vigo/restaurant/detapaencepa", waiting until "networkidle"
+
+2026-01-30 10:56:02,939 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 10:56:02,945 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:56:02,945 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:56:33,051 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/pais-vasco/es-donostia-san-sebastian/restaurant/amelia-1191398
+Call log:
+  - navigating to "https://guide.michelin.com/en/pais-vasco/es-donostia-san-sebastian/restaurant/amelia-1191398", waiting until "networkidle"
+
+2026-01-30 10:56:33,052 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 10:56:33,058 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:56:33,059 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:57:03,162 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/pais-vasco/es-donostia-san-sebastian/restaurant/amelia-1191398
+Call log:
+  - navigating to "https://guide.michelin.com/en/pais-vasco/es-donostia-san-sebastian/restaurant/amelia-1191398", waiting until "networkidle"
+
+2026-01-30 10:57:03,163 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 10:57:03,172 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:57:03,172 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:57:33,287 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/pais-vasco/es-donostia-san-sebastian/restaurant/amelia-1191398
+Call log:
+  - navigating to "https://guide.michelin.com/en/pais-vasco/es-donostia-san-sebastian/restaurant/amelia-1191398", waiting until "networkidle"
+
+2026-01-30 10:57:33,290 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 10:57:33,297 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:57:33,297 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:58:03,406 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/principado-de-asturias/peruyes/restaurant/el-molin-de-mingo
+Call log:
+  - navigating to "https://guide.michelin.com/en/principado-de-asturias/peruyes/restaurant/el-molin-de-mingo", waiting until "networkidle"
+
+2026-01-30 10:58:03,407 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 10:58:03,414 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:58:03,415 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:58:33,526 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/principado-de-asturias/peruyes/restaurant/el-molin-de-mingo
+Call log:
+  - navigating to "https://guide.michelin.com/en/principado-de-asturias/peruyes/restaurant/el-molin-de-mingo", waiting until "networkidle"
+
+2026-01-30 10:58:33,528 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 10:58:33,536 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:58:33,536 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:59:03,639 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/principado-de-asturias/peruyes/restaurant/el-molin-de-mingo
+Call log:
+  - navigating to "https://guide.michelin.com/en/principado-de-asturias/peruyes/restaurant/el-molin-de-mingo", waiting until "networkidle"
+
+2026-01-30 10:59:03,641 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 10:59:03,648 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:59:03,648 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 10:59:33,860 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/islas-baleares/mahn/restaurant/la-cocina-de-cristine
+Call log:
+  - navigating to "https://guide.michelin.com/en/islas-baleares/mahn/restaurant/la-cocina-de-cristine", waiting until "networkidle"
+
+2026-01-30 10:59:33,863 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0004)
+2026-01-30 10:59:33,884 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 10:59:33,884 [INFO] Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
+2026-01-30 11:00:04,013 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/islas-baleares/mahn/restaurant/la-cocina-de-cristine
+Call log:
+  - navigating to "https://guide.michelin.com/en/islas-baleares/mahn/restaurant/la-cocina-de-cristine", waiting until "networkidle"
+
+2026-01-30 11:00:04,015 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 11:00:04,028 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 11:00:04,028 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 11:00:34,140 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/islas-baleares/mahn/restaurant/la-cocina-de-cristine
+Call log:
+  - navigating to "https://guide.michelin.com/en/islas-baleares/mahn/restaurant/la-cocina-de-cristine", waiting until "networkidle"
+
+2026-01-30 11:00:34,143 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 11:00:34,157 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 11:00:34,157 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 11:01:04,269 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/castilla-y-leon/avila/restaurant/calena
+Call log:
+  - navigating to "https://guide.michelin.com/en/castilla-y-leon/avila/restaurant/calena", waiting until "networkidle"
+
+2026-01-30 11:01:04,273 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 11:01:04,283 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 11:01:04,283 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 11:01:34,423 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/castilla-y-leon/avila/restaurant/calena
+Call log:
+  - navigating to "https://guide.michelin.com/en/castilla-y-leon/avila/restaurant/calena", waiting until "networkidle"
+
+2026-01-30 11:01:34,425 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 11:01:34,438 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 11:01:34,438 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 11:02:04,553 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/castilla-y-leon/avila/restaurant/calena
+Call log:
+  - navigating to "https://guide.michelin.com/en/castilla-y-leon/avila/restaurant/calena", waiting until "networkidle"
+
+2026-01-30 11:02:04,555 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 11:02:04,567 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 11:02:04,567 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 11:02:34,693 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/comunidad-de-madrid/madrid/restaurant/ozio-gastronomico
+Call log:
+  - navigating to "https://guide.michelin.com/en/comunidad-de-madrid/madrid/restaurant/ozio-gastronomico", waiting until "networkidle"
+
+2026-01-30 11:02:34,696 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 11:02:34,705 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 11:02:34,706 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 11:03:04,860 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/comunidad-de-madrid/madrid/restaurant/ozio-gastronomico
+Call log:
+  - navigating to "https://guide.michelin.com/en/comunidad-de-madrid/madrid/restaurant/ozio-gastronomico", waiting until "networkidle"
+
+2026-01-30 11:03:04,864 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 11:03:04,873 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 11:03:04,873 [INFO] Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
+2026-01-30 11:04:25,759 [INFO] Batch complete (25/47), waiting 10s...
+2026-01-30 11:06:17,329 [INFO] Page 11 complete. Total: +472 ~0 =0 !11
+2026-01-30 11:06:20,335 [INFO] Fetching listing page 12
+2026-01-30 11:06:27,670 [INFO] Found 52 restaurants on page 12
+2026-01-30 11:07:47,037 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_NETWORK_CHANGED at https://guide.michelin.com/en/catalunya/barcelona/restaurant/taberna-noroeste
+Call log:
+  - navigating to "https://guide.michelin.com/en/catalunya/barcelona/restaurant/taberna-noroeste", waiting until "networkidle"
+
+2026-01-30 11:07:47,056 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0003)
+2026-01-30 11:07:47,088 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 11:07:47,088 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 11:08:17,259 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/catalunya/barcelona/restaurant/taberna-noroeste
+Call log:
+  - navigating to "https://guide.michelin.com/en/catalunya/barcelona/restaurant/taberna-noroeste", waiting until "networkidle"
+
+2026-01-30 11:08:17,261 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 11:08:17,269 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 11:08:17,269 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 11:08:47,524 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 11:08:47,525 [INFO] Tor control port connected
+2026-01-30 11:08:47,525 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 11:08:47,525 [INFO] Proxy pool initialized with 1 proxies
+2026-01-30 11:08:47,525 [INFO] Starting full scrape from page 12 (max 50)
+2026-01-30 11:08:47,630 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/catalunya/barcelona/restaurant/taberna-noroeste
+Call log:
+  - navigating to "https://guide.michelin.com/en/catalunya/barcelona/restaurant/taberna-noroeste", waiting until "networkidle"
+
+2026-01-30 11:08:47,632 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0004)
+2026-01-30 11:08:47,641 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 11:08:47,641 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 11:08:48,576 [INFO] Browser started
+2026-01-30 11:08:48,582 [INFO] Fetching listing page 12
+2026-01-30 11:09:17,772 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/comunidad-valenciana/valencia/restaurant/forastera-1191535
+Call log:
+  - navigating to "https://guide.michelin.com/en/comunidad-valenciana/valencia/restaurant/forastera-1191535", waiting until "networkidle"
+
+2026-01-30 11:09:17,775 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 11:09:17,784 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 11:09:17,784 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 11:09:18,961 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TIMED_OUT at https://guide.michelin.com/en/es/restaurants/page/12
+Call log:
+  - navigating to "https://guide.michelin.com/en/es/restaurants/page/12", waiting until "networkidle"
+
+2026-01-30 11:09:19,220 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 11:09:19,220 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 11:09:19,221 [INFO] Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
+2026-01-30 11:09:41,522 [INFO] Found 52 restaurants on page 12
+2026-01-30 11:09:41,525 [INFO] Total restaurants on site: 1274
+2026-01-30 11:10:04,092 [INFO] Batch complete (25/48), waiting 10s...
+2026-01-30 11:12:21,298 [INFO] Batch complete (25/48), waiting 10s...
+2026-01-30 11:12:26,827 [INFO] Page 12 complete. Total: +519 ~0 =0 !12
+2026-01-30 11:12:29,832 [INFO] Fetching listing page 13
+2026-01-30 11:12:31,477 [INFO] Found 0 restaurants on page 13
+2026-01-30 11:12:31,477 [INFO] Empty page 13 (1/3 consecutive)
+2026-01-30 11:12:31,478 [INFO] Page 13 complete. Total: +519 ~0 =0 !12
+2026-01-30 11:12:34,483 [INFO] Fetching listing page 14
+2026-01-30 11:12:36,326 [INFO] Found 0 restaurants on page 14
+2026-01-30 11:12:36,326 [INFO] Empty page 14 (2/3 consecutive)
+2026-01-30 11:12:36,326 [INFO] Page 14 complete. Total: +519 ~0 =0 !12
+2026-01-30 11:12:39,331 [INFO] Fetching listing page 15
+2026-01-30 11:12:41,167 [INFO] Found 0 restaurants on page 15
+2026-01-30 11:12:41,168 [INFO] Empty page 15 (3/3 consecutive)
+2026-01-30 11:12:41,168 [INFO] Page 15 complete. Total: +519 ~0 =0 !12
+2026-01-30 11:12:41,173 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 11:12:41,182 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 11:12:41,182 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 11:12:44,184 [INFO] Early termination: 3 consecutive empty pages at page 15
+2026-01-30 11:12:44,364 [INFO] Browser stopped
+2026-01-30 11:12:44,366 [INFO] Wrote 519 changes to additions.txt
+2026-01-30 11:12:44,366 [INFO] Full scrape complete!
+2026-01-30 11:12:44,367 [INFO] Final stats: {'added': 519, 'modified': 0, 'unchanged': 0, 'failed': 12}
+2026-01-30 11:12:44,368 [INFO] Total restaurants in DB: 520
+2026-01-30 11:14:19,584 [INFO] Page 12 complete. Total: +1 ~10 =37 !0
+2026-01-30 11:14:22,589 [INFO] Fetching listing page 13
+2026-01-30 11:14:33,360 [INFO] Found 52 restaurants on page 13
+2026-01-30 11:17:22,223 [INFO] Batch complete (25/48), waiting 10s...
+2026-01-30 11:18:06,853 [INFO] Page 13 complete. Total: +49 ~10 =37 !0
+2026-01-30 11:18:09,858 [INFO] Fetching listing page 14
+2026-01-30 11:18:11,328 [INFO] Found 0 restaurants on page 14
+2026-01-30 11:18:11,328 [INFO] Empty page 14 (1/3 consecutive)
+2026-01-30 11:18:11,329 [INFO] Page 14 complete. Total: +49 ~10 =37 !0
+2026-01-30 11:18:14,334 [INFO] Fetching listing page 15
+2026-01-30 11:18:15,729 [INFO] Found 0 restaurants on page 15
+2026-01-30 11:18:15,729 [INFO] Empty page 15 (2/3 consecutive)
+2026-01-30 11:18:15,730 [INFO] Page 15 complete. Total: +49 ~10 =37 !0
+2026-01-30 11:18:15,733 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 11:18:15,743 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 11:18:15,744 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 11:18:18,749 [INFO] Fetching listing page 16
+2026-01-30 11:18:27,889 [INFO] Found 52 restaurants on page 16
+2026-01-30 11:20:33,316 [INFO] Batch complete (25/48), waiting 10s...
+2026-01-30 11:22:21,868 [INFO] Page 16 complete. Total: +97 ~10 =37 !0
+2026-01-30 11:22:24,873 [INFO] Fetching listing page 17
+2026-01-30 11:22:26,007 [INFO] Found 0 restaurants on page 17
+2026-01-30 11:22:26,007 [INFO] Empty page 17 (1/3 consecutive)
+2026-01-30 11:22:26,008 [INFO] Page 17 complete. Total: +97 ~10 =37 !0
+2026-01-30 11:22:29,010 [INFO] Fetching listing page 18
+2026-01-30 11:22:30,171 [INFO] Found 0 restaurants on page 18
+2026-01-30 11:22:30,171 [INFO] Empty page 18 (2/3 consecutive)
+2026-01-30 11:22:30,172 [INFO] Page 18 complete. Total: +97 ~10 =37 !0
+2026-01-30 11:22:33,177 [INFO] Fetching listing page 19
+2026-01-30 11:22:34,395 [INFO] Found 0 restaurants on page 19
+2026-01-30 11:22:34,395 [INFO] Empty page 19 (3/3 consecutive)
+2026-01-30 11:22:34,396 [INFO] Page 19 complete. Total: +97 ~10 =37 !0
+2026-01-30 11:22:37,401 [INFO] Early termination: 3 consecutive empty pages at page 19
+2026-01-30 11:22:37,563 [INFO] Browser stopped
+2026-01-30 11:22:37,564 [INFO] Wrote 107 changes to additions.txt
+2026-01-30 11:22:37,564 [INFO] Full scrape complete!
+2026-01-30 11:22:37,564 [INFO] Final stats: {'added': 97, 'modified': 10, 'unchanged': 37, 'failed': 0}
+2026-01-30 11:22:37,566 [INFO] Total restaurants in DB: 616
+2026-01-30 11:59:42,123 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 11:59:42,124 [INFO] Tor control port connected
+2026-01-30 11:59:42,124 [INFO] Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
+2026-01-30 11:59:42,124 [INFO] Proxy pool initialized with 1 proxies
+2026-01-30 11:59:43,258 [INFO] Browser started
+2026-01-30 11:59:43,258 [INFO] Pass 1 (scan): collecting URLs from page 1
+2026-01-30 11:59:43,258 [INFO] Fetching listing page 1
+2026-01-30 11:59:48,963 [INFO] Found 48 restaurants on page 1
+2026-01-30 11:59:48,969 [INFO] Total restaurants on site: 1274
+2026-01-30 11:59:48,970 [INFO] Page 1 scanned. 48 URLs collected so far.
+2026-01-30 11:59:51,975 [INFO] Fetching listing page 2
+2026-01-30 11:59:57,058 [INFO] Found 52 restaurants on page 2
+2026-01-30 11:59:57,058 [INFO] Page 2 scanned. 96 URLs collected so far.
+2026-01-30 12:00:00,064 [INFO] Fetching listing page 3
+2026-01-30 12:00:04,762 [INFO] Found 52 restaurants on page 3
+2026-01-30 12:00:04,763 [INFO] Page 3 scanned. 144 URLs collected so far.
+2026-01-30 12:00:07,764 [INFO] Fetching listing page 4
+2026-01-30 12:00:12,201 [INFO] Found 52 restaurants on page 4
+2026-01-30 12:00:12,202 [INFO] Page 4 scanned. 192 URLs collected so far.
+2026-01-30 12:00:15,206 [INFO] Fetching listing page 5
+2026-01-30 12:00:20,851 [INFO] Found 52 restaurants on page 5
+2026-01-30 12:00:20,852 [INFO] Page 5 scanned. 240 URLs collected so far.
+2026-01-30 12:00:20,854 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 12:00:20,866 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:00:20,866 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:00:23,871 [INFO] Fetching listing page 6
+2026-01-30 12:00:28,755 [INFO] Found 52 restaurants on page 6
+2026-01-30 12:00:28,756 [INFO] Page 6 scanned. 288 URLs collected so far.
+2026-01-30 12:00:31,757 [INFO] Fetching listing page 7
+2026-01-30 12:00:36,230 [INFO] Found 52 restaurants on page 7
+2026-01-30 12:00:36,231 [INFO] Page 7 scanned. 336 URLs collected so far.
+2026-01-30 12:00:39,236 [INFO] Fetching listing page 8
+2026-01-30 12:00:44,242 [INFO] Found 52 restaurants on page 8
+2026-01-30 12:00:44,242 [INFO] Page 8 scanned. 384 URLs collected so far.
+2026-01-30 12:00:47,248 [INFO] Fetching listing page 9
+2026-01-30 12:00:51,429 [INFO] Found 52 restaurants on page 9
+2026-01-30 12:00:51,430 [INFO] Page 9 scanned. 432 URLs collected so far.
+2026-01-30 12:00:54,435 [INFO] Fetching listing page 10
+2026-01-30 12:00:58,493 [INFO] Found 52 restaurants on page 10
+2026-01-30 12:00:58,496 [INFO] Page 10 scanned. 480 URLs collected so far.
+2026-01-30 12:00:58,498 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:00:58,508 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:00:58,508 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:01:01,513 [INFO] Fetching listing page 11
+2026-01-30 12:01:09,148 [INFO] Found 52 restaurants on page 11
+2026-01-30 12:01:09,149 [INFO] Page 11 scanned. 528 URLs collected so far.
+2026-01-30 12:01:12,154 [INFO] Fetching listing page 12
+2026-01-30 12:01:16,318 [INFO] Found 52 restaurants on page 12
+2026-01-30 12:01:16,320 [INFO] Page 12 scanned. 576 URLs collected so far.
+2026-01-30 12:01:19,321 [INFO] Fetching listing page 13
+2026-01-30 12:01:24,240 [INFO] Found 52 restaurants on page 13
+2026-01-30 12:01:24,241 [INFO] Page 13 scanned. 624 URLs collected so far.
+2026-01-30 12:01:27,246 [INFO] Fetching listing page 14
+2026-01-30 12:01:31,855 [INFO] Found 52 restaurants on page 14
+2026-01-30 12:01:31,856 [INFO] Page 14 scanned. 672 URLs collected so far.
+2026-01-30 12:01:34,859 [INFO] Fetching listing page 15
+2026-01-30 12:01:41,161 [INFO] Found 52 restaurants on page 15
+2026-01-30 12:01:41,162 [INFO] Page 15 scanned. 720 URLs collected so far.
+2026-01-30 12:01:41,165 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:01:41,175 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:01:41,175 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:01:44,180 [INFO] Fetching listing page 16
+2026-01-30 12:01:54,019 [INFO] Found 52 restaurants on page 16
+2026-01-30 12:01:54,021 [INFO] Page 16 scanned. 768 URLs collected so far.
+2026-01-30 12:01:57,026 [INFO] Fetching listing page 17
+2026-01-30 12:02:07,665 [INFO] Found 52 restaurants on page 17
+2026-01-30 12:02:07,667 [INFO] Page 17 scanned. 816 URLs collected so far.
+2026-01-30 12:02:10,670 [INFO] Fetching listing page 18
+2026-01-30 12:02:29,595 [INFO] Found 52 restaurants on page 18
+2026-01-30 12:02:29,598 [INFO] Page 18 scanned. 864 URLs collected so far.
+2026-01-30 12:02:32,603 [INFO] Fetching listing page 19
+2026-01-30 12:02:38,436 [INFO] Found 52 restaurants on page 19
+2026-01-30 12:02:38,437 [INFO] Page 19 scanned. 912 URLs collected so far.
+2026-01-30 12:02:41,442 [INFO] Fetching listing page 20
+2026-01-30 12:02:46,952 [INFO] Found 52 restaurants on page 20
+2026-01-30 12:02:46,953 [INFO] Page 20 scanned. 960 URLs collected so far.
+2026-01-30 12:02:46,957 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 12:02:46,969 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:02:46,969 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:02:49,974 [INFO] Fetching listing page 21
+2026-01-30 12:02:57,119 [INFO] Found 52 restaurants on page 21
+2026-01-30 12:02:57,120 [INFO] Page 21 scanned. 1008 URLs collected so far.
+2026-01-30 12:03:00,125 [INFO] Fetching listing page 22
+2026-01-30 12:03:09,828 [INFO] Found 52 restaurants on page 22
+2026-01-30 12:03:09,829 [INFO] Page 22 scanned. 1056 URLs collected so far.
+2026-01-30 12:03:12,834 [INFO] Fetching listing page 23
+2026-01-30 12:03:20,526 [INFO] Found 52 restaurants on page 23
+2026-01-30 12:03:20,527 [INFO] Page 23 scanned. 1104 URLs collected so far.
+2026-01-30 12:03:23,532 [INFO] Fetching listing page 24
+2026-01-30 12:03:31,218 [INFO] Found 52 restaurants on page 24
+2026-01-30 12:03:31,219 [INFO] Page 24 scanned. 1152 URLs collected so far.
+2026-01-30 12:03:34,224 [INFO] Fetching listing page 25
+2026-01-30 12:03:42,260 [INFO] Found 52 restaurants on page 25
+2026-01-30 12:03:42,261 [INFO] Page 25 scanned. 1200 URLs collected so far.
+2026-01-30 12:03:42,263 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 12:03:42,271 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:03:42,272 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:03:45,277 [INFO] Fetching listing page 26
+2026-01-30 12:04:00,624 [INFO] Found 52 restaurants on page 26
+2026-01-30 12:04:00,625 [INFO] Page 26 scanned. 1248 URLs collected so far.
+2026-01-30 12:04:03,630 [INFO] Fetching listing page 27
+2026-01-30 12:04:22,695 [INFO] Found 30 restaurants on page 27
+2026-01-30 12:04:22,697 [INFO] Page 27 scanned. 1274 URLs collected so far.
+2026-01-30 12:04:25,702 [INFO] Fetching listing page 28
+2026-01-30 12:04:30,106 [INFO] Found 4 restaurants on page 28
+2026-01-30 12:04:30,107 [INFO] Page 28 scanned. 1274 URLs collected so far.
+2026-01-30 12:04:33,112 [INFO] Fetching listing page 29
+2026-01-30 12:04:37,396 [INFO] Found 4 restaurants on page 29
+2026-01-30 12:04:37,398 [INFO] Page 29 scanned. 1274 URLs collected so far.
+2026-01-30 12:04:40,403 [INFO] Fetching listing page 30
+2026-01-30 12:04:44,658 [INFO] Found 4 restaurants on page 30
+2026-01-30 12:04:44,660 [INFO] Page 30 scanned. 1274 URLs collected so far.
+2026-01-30 12:04:44,662 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:04:44,670 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:04:44,670 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:04:47,676 [INFO] Fetching listing page 31
+2026-01-30 12:04:53,014 [INFO] Found 4 restaurants on page 31
+2026-01-30 12:04:53,015 [INFO] Page 31 scanned. 1274 URLs collected so far.
+2026-01-30 12:04:56,017 [INFO] Fetching listing page 32
+2026-01-30 12:05:00,948 [INFO] Found 4 restaurants on page 32
+2026-01-30 12:05:00,948 [INFO] Page 32 scanned. 1274 URLs collected so far.
+2026-01-30 12:05:03,954 [INFO] Fetching listing page 33
+2026-01-30 12:05:08,628 [INFO] Found 4 restaurants on page 33
+2026-01-30 12:05:08,629 [INFO] Page 33 scanned. 1274 URLs collected so far.
+2026-01-30 12:05:11,634 [INFO] Fetching listing page 34
+2026-01-30 12:05:16,184 [INFO] Found 4 restaurants on page 34
+2026-01-30 12:05:16,185 [INFO] Page 34 scanned. 1274 URLs collected so far.
+2026-01-30 12:05:19,190 [INFO] Fetching listing page 35
+2026-01-30 12:05:23,599 [INFO] Found 4 restaurants on page 35
+2026-01-30 12:05:23,601 [INFO] Page 35 scanned. 1274 URLs collected so far.
+2026-01-30 12:05:23,602 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:05:23,611 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:05:23,611 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:05:23,611 [INFO] Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2026-01-30 12:05:23,611 [INFO] Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2026-01-30 12:05:26,616 [INFO] Fetching listing page 36
+2026-01-30 12:05:31,305 [INFO] Found 4 restaurants on page 36
+2026-01-30 12:05:31,306 [INFO] Page 36 scanned. 1274 URLs collected so far.
+2026-01-30 12:05:34,311 [INFO] Fetching listing page 37
+2026-01-30 12:05:39,187 [INFO] Found 4 restaurants on page 37
+2026-01-30 12:05:39,188 [INFO] Page 37 scanned. 1274 URLs collected so far.
+2026-01-30 12:05:42,193 [INFO] Fetching listing page 38
+2026-01-30 12:05:46,699 [INFO] Found 4 restaurants on page 38
+2026-01-30 12:05:46,700 [INFO] Page 38 scanned. 1274 URLs collected so far.
+2026-01-30 12:05:49,702 [INFO] Fetching listing page 39
+2026-01-30 12:05:53,977 [INFO] Found 4 restaurants on page 39
+2026-01-30 12:05:53,978 [INFO] Page 39 scanned. 1274 URLs collected so far.
+2026-01-30 12:05:56,983 [INFO] Fetching listing page 40
+2026-01-30 12:06:01,713 [INFO] Found 4 restaurants on page 40
+2026-01-30 12:06:01,714 [INFO] Page 40 scanned. 1274 URLs collected so far.
+2026-01-30 12:06:01,715 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 12:06:01,725 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:06:01,725 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:06:04,730 [INFO] Fetching listing page 41
+2026-01-30 12:06:10,085 [INFO] Found 4 restaurants on page 41
+2026-01-30 12:06:10,086 [INFO] Page 41 scanned. 1274 URLs collected so far.
+2026-01-30 12:06:13,091 [INFO] Fetching listing page 42
+2026-01-30 12:06:21,510 [INFO] Found 4 restaurants on page 42
+2026-01-30 12:06:21,511 [INFO] Page 42 scanned. 1274 URLs collected so far.
+2026-01-30 12:06:24,516 [INFO] Fetching listing page 43
+2026-01-30 12:06:33,431 [INFO] Found 4 restaurants on page 43
+2026-01-30 12:06:33,433 [INFO] Page 43 scanned. 1274 URLs collected so far.
+2026-01-30 12:06:36,438 [INFO] Fetching listing page 44
+2026-01-30 12:06:44,346 [INFO] Found 4 restaurants on page 44
+2026-01-30 12:06:44,348 [INFO] Page 44 scanned. 1274 URLs collected so far.
+2026-01-30 12:06:47,353 [INFO] Fetching listing page 45
+2026-01-30 12:06:55,990 [INFO] Found 4 restaurants on page 45
+2026-01-30 12:06:55,991 [INFO] Page 45 scanned. 1274 URLs collected so far.
+2026-01-30 12:06:55,993 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 12:06:56,004 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:06:56,004 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:06:59,009 [INFO] Fetching listing page 46
+2026-01-30 12:07:04,976 [INFO] Found 4 restaurants on page 46
+2026-01-30 12:07:04,977 [INFO] Page 46 scanned. 1274 URLs collected so far.
+2026-01-30 12:07:07,982 [INFO] Fetching listing page 47
+2026-01-30 12:07:13,743 [INFO] Found 4 restaurants on page 47
+2026-01-30 12:07:13,745 [INFO] Page 47 scanned. 1274 URLs collected so far.
+2026-01-30 12:07:16,750 [INFO] Fetching listing page 48
+2026-01-30 12:07:24,248 [INFO] Found 4 restaurants on page 48
+2026-01-30 12:07:24,250 [INFO] Page 48 scanned. 1274 URLs collected so far.
+2026-01-30 12:07:27,255 [INFO] Fetching listing page 49
+2026-01-30 12:07:32,444 [INFO] Found 4 restaurants on page 49
+2026-01-30 12:07:32,445 [INFO] Page 49 scanned. 1274 URLs collected so far.
+2026-01-30 12:07:35,450 [INFO] Fetching listing page 50
+2026-01-30 12:07:41,396 [INFO] Found 4 restaurants on page 50
+2026-01-30 12:07:41,397 [INFO] Page 50 scanned. 1274 URLs collected so far.
+2026-01-30 12:07:41,400 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 12:07:41,409 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:07:41,409 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:07:41,409 [INFO] Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2026-01-30 12:07:44,414 [INFO] Pass 1 complete. 1274 restaurant URLs collected.
+2026-01-30 12:07:44,417 [INFO] Pass 2 (scrape): 1274 total, 0 already done
+2026-01-30 12:09:51,319 [INFO] Batch 1: 25/1274 done. +25 ~0 !0
+2026-01-30 12:09:51,323 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:09:51,332 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:09:51,333 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:12:19,176 [INFO] Batch 2: 50/1274 done. +50 ~0 !0
+2026-01-30 12:12:19,178 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:12:19,190 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:12:19,190 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:15:05,156 [INFO] Batch 3: 75/1274 done. +75 ~0 !0
+2026-01-30 12:15:05,161 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 12:15:05,173 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:15:05,173 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:17:51,070 [INFO] Batch 4: 100/1274 done. +100 ~0 !0
+2026-01-30 12:17:51,074 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:17:51,084 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:17:51,084 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:20:16,296 [INFO] Batch 5: 125/1274 done. +125 ~0 !0
+2026-01-30 12:20:16,299 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:20:16,309 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:20:16,309 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:22:18,405 [INFO] Batch 6: 150/1274 done. +150 ~0 !0
+2026-01-30 12:22:18,408 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 12:22:18,419 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:22:18,419 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:24:28,428 [INFO] Batch 7: 175/1274 done. +175 ~0 !0
+2026-01-30 12:24:28,432 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 12:24:28,445 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:24:28,445 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:24:28,445 [INFO] Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2026-01-30 12:25:38,564 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://guide.michelin.com/es/es/catalunya/barcelona/restaurante/scapar", waiting until "networkidle"
+
+2026-01-30 12:25:38,569 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:25:38,582 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:25:38,583 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:28:29,738 [INFO] Batch 8: 200/1274 done. +200 ~0 !0
+2026-01-30 12:28:29,743 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 12:28:29,753 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:28:29,753 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:31:26,397 [INFO] Batch 9: 225/1274 done. +225 ~0 !0
+2026-01-30 12:31:26,401 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:31:26,414 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:31:26,414 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:31:43,121 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://guide.michelin.com/es/es/islas-baleares/soller/restaurante/ca%C2%B4n-boqueta
+Call log:
+  - navigating to "https://guide.michelin.com/es/es/islas-baleares/soller/restaurante/ca%C2%B4n-boqueta", waiting until "networkidle"
+
+2026-01-30 12:31:43,122 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:31:43,130 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:31:43,130 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:33:50,454 [INFO] Batch 10: 250/1274 done. +250 ~0 !0
+2026-01-30 12:33:50,458 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:33:50,469 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:33:50,469 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:36:07,299 [INFO] Batch 11: 275/1274 done. +275 ~0 !0
+2026-01-30 12:36:07,305 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:36:07,317 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:36:07,318 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:38:23,998 [INFO] Batch 12: 300/1274 done. +300 ~0 !0
+2026-01-30 12:38:24,002 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 12:38:24,012 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:38:24,012 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:40:51,937 [INFO] Batch 13: 325/1274 done. +325 ~0 !0
+2026-01-30 12:40:51,942 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:40:51,950 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:40:51,951 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:43:00,990 [INFO] Batch 14: 350/1274 done. +350 ~0 !0
+2026-01-30 12:43:00,995 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:43:01,006 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:43:01,007 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:44:11,120 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://guide.michelin.com/es/es/castilla-la-mancha/tarancon/restaurante/la-martina", waiting until "networkidle"
+
+2026-01-30 12:44:11,125 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:44:11,141 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:44:11,141 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:45:59,809 [INFO] Batch 15: 375/1274 done. +375 ~0 !0
+2026-01-30 12:45:59,815 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:45:59,826 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:45:59,826 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:48:17,423 [INFO] Batch 16: 400/1274 done. +400 ~0 !0
+2026-01-30 12:48:17,428 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:48:17,439 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:48:17,439 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:50:37,587 [INFO] Batch 17: 425/1274 done. +425 ~0 !0
+2026-01-30 12:50:37,592 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:50:37,602 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:50:37,602 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:52:52,958 [INFO] Batch 18: 450/1274 done. +450 ~0 !0
+2026-01-30 12:52:52,962 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:52:52,971 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:52:52,971 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:54:59,701 [INFO] Batch 19: 475/1274 done. +475 ~0 !0
+2026-01-30 12:54:59,707 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:54:59,716 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:54:59,717 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:57:11,048 [INFO] Batch 20: 500/1274 done. +500 ~0 !0
+2026-01-30 12:57:11,053 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:57:11,062 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:57:11,062 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 12:59:34,855 [INFO] Batch 21: 525/1274 done. +525 ~0 !0
+2026-01-30 12:59:34,859 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 12:59:34,867 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 12:59:34,867 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:03:24,953 [INFO] Batch 22: 550/1274 done. +550 ~0 !0
+2026-01-30 13:03:24,958 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 13:03:24,971 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:03:24,971 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:05:31,811 [INFO] Batch 23: 575/1274 done. +575 ~0 !0
+2026-01-30 13:05:31,817 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 13:05:31,828 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:05:31,829 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:08:21,646 [INFO] Batch 24: 600/1274 done. +600 ~0 !0
+2026-01-30 13:08:21,649 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 13:08:21,658 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:08:21,659 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:10:50,137 [INFO] Batch 25: 625/1274 done. +625 ~0 !0
+2026-01-30 13:10:50,143 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 13:10:50,153 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:10:50,153 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:15:14,370 [INFO] Batch 26: 650/1274 done. +650 ~0 !0
+2026-01-30 13:15:14,376 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 13:15:14,386 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:15:14,386 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:17:36,090 [INFO] Batch 27: 675/1274 done. +675 ~0 !0
+2026-01-30 13:17:36,095 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 13:17:36,107 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:17:36,107 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:19:51,714 [INFO] Batch 28: 700/1274 done. +700 ~0 !0
+2026-01-30 13:19:51,719 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 13:19:51,729 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:19:51,730 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:22:25,190 [INFO] Batch 29: 725/1274 done. +725 ~0 !0
+2026-01-30 13:22:25,196 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 13:22:25,207 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:22:25,207 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:24:36,482 [INFO] Batch 30: 750/1274 done. +750 ~0 !0
+2026-01-30 13:24:36,488 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0003)
+2026-01-30 13:24:36,497 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:24:36,497 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:27:08,698 [INFO] Batch 31: 775/1274 done. +775 ~0 !0
+2026-01-30 13:27:08,703 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 13:27:08,713 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:27:08,713 [INFO] Error while receiving a control message (SocketClosed): empty socket content
+2026-01-30 13:29:49,839 [INFO] Batch 32: 800/1274 done. +800 ~0 !0
+2026-01-30 13:29:49,845 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 13:29:49,854 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:29:49,854 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:32:21,883 [INFO] Batch 33: 825/1274 done. +825 ~0 !0
+2026-01-30 13:32:21,887 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 13:32:21,897 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:32:21,898 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:33:31,999 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://guide.michelin.com/es/es/canarias/el-sauzal/restaurante/nila", waiting until "networkidle"
+
+2026-01-30 13:33:32,002 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 13:33:32,014 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:33:32,015 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:35:47,626 [INFO] Batch 34: 850/1274 done. +850 ~0 !0
+2026-01-30 13:35:47,632 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 13:35:47,639 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:35:47,639 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:35:47,639 [INFO] Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2026-01-30 13:35:47,639 [INFO] Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2026-01-30 13:35:47,639 [INFO] Error while receiving a control message (SocketClosed): received exception "peek of closed file"
+2026-01-30 13:38:00,912 [INFO] Batch 35: 875/1274 done. +875 ~0 !0
+2026-01-30 13:38:00,919 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 13:38:00,929 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:38:00,929 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:41:25,666 [INFO] Batch 36: 900/1274 done. +900 ~0 !0
+2026-01-30 13:41:25,673 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 13:41:25,682 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:41:25,683 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:44:15,213 [INFO] Batch 37: 925/1274 done. +925 ~0 !0
+2026-01-30 13:44:15,219 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 13:44:15,229 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:44:15,229 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:46:53,164 [INFO] Batch 38: 950/1274 done. +950 ~0 !0
+2026-01-30 13:46:53,167 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 13:46:53,179 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:46:53,179 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:49:37,027 [INFO] Batch 39: 975/1274 done. +975 ~0 !0
+2026-01-30 13:49:37,036 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 13:49:37,048 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:49:37,049 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:50:52,755 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://guide.michelin.com/es/es/principado-de-asturias/gijon/restaurante/abarike", waiting until "networkidle"
+
+2026-01-30 13:50:52,770 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 13:50:52,788 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:50:52,789 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:53:45,095 [INFO] Batch 40: 1000/1274 done. +1000 ~0 !0
+2026-01-30 13:53:45,101 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 13:53:45,113 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:53:45,113 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 13:58:01,103 [INFO] Batch 41: 1025/1274 done. +1025 ~0 !0
+2026-01-30 13:58:01,109 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0003)
+2026-01-30 13:58:01,121 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 13:58:01,122 [INFO] Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
+2026-01-30 14:00:46,781 [INFO] Batch 42: 1050/1274 done. +1050 ~0 !0
+2026-01-30 14:00:46,786 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 14:00:46,795 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 14:00:46,796 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 14:03:57,486 [INFO] Batch 43: 1075/1274 done. +1075 ~0 !0
+2026-01-30 14:03:57,491 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 14:03:57,501 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 14:03:57,501 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 14:05:07,665 [WARNING] Failed with proxy http://127.0.0.1:8118: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://guide.michelin.com/es/es/comunidad-valenciana/alacant/restaurante/distrikt41", waiting until "networkidle"
+
+2026-01-30 14:05:07,672 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0004)
+2026-01-30 14:05:07,694 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 14:05:07,695 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 14:07:54,214 [INFO] Batch 44: 1100/1274 done. +1100 ~0 !0
+2026-01-30 14:07:54,220 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 14:07:54,231 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 14:07:54,231 [INFO] Error while receiving a control message (SocketClosed): empty socket content
+2026-01-30 14:10:09,904 [INFO] Batch 45: 1125/1274 done. +1125 ~0 !0
+2026-01-30 14:10:09,912 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 14:10:09,923 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 14:10:09,924 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 14:14:25,815 [INFO] Batch 46: 1150/1274 done. +1150 ~0 !0
+2026-01-30 14:14:25,821 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 14:14:25,834 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 14:14:25,834 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 14:16:57,778 [INFO] Batch 47: 1175/1274 done. +1175 ~0 !0
+2026-01-30 14:16:57,783 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-01-30 14:16:57,794 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 14:16:57,794 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 14:19:54,497 [INFO] Batch 48: 1200/1274 done. +1200 ~0 !0
+2026-01-30 14:19:54,502 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 14:19:54,514 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 14:19:54,514 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 14:22:27,394 [INFO] Batch 49: 1225/1274 done. +1225 ~0 !0
+2026-01-30 14:22:27,402 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0001)
+2026-01-30 14:22:27,415 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 14:22:27,416 [INFO] Error while receiving a control message (SocketClosed): received exception "[Errno 9] Bad file descriptor"
+2026-01-30 14:25:03,268 [INFO] Batch 50: 1250/1274 done. +1250 ~0 !0
+2026-01-30 14:25:03,280 [DEBUG] GETCONF __owningcontrollerprocess (runtime: 0.0004)
+2026-01-30 14:25:03,292 [INFO] Tor IP rotated (NEWNYM)
+2026-01-30 14:25:03,292 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-01-30 14:27:48,520 [INFO] Browser stopped
+2026-01-30 14:27:48,524 [INFO] Wrote 1274 changes to additions.txt
+2026-01-30 14:27:48,524 [INFO] Full scrape complete!
+2026-01-30 14:27:48,524 [INFO] Final stats: {'added': 1274, 'modified': 0, 'unchanged': 0, 'failed': 0}
+2026-01-30 14:27:48,529 [INFO] Total restaurants in DB: 1274

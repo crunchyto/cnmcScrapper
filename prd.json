@@ -1,0 +1,154 @@
+{
+  "project": "CNMC Mobile Carrier Scraper",
+  "branchName": "ralph/cnmc-mobile-scraper",
+  "description": "Python CLI to bulk-query Spanish mobile carrier info from CNMC portability checker. Playwright + 2Captcha + Tor IP rotation + SQLite storage + resume.",
+  "userStories": [
+    {
+      "id": "US-001",
+      "title": "Create config.yaml and requirements.txt for CNMC scraper",
+      "description": "As a developer, I need the project config and dependencies set up so other stories can use them.",
+      "acceptanceCriteria": [
+        "config.yaml has sections: proxy (tor host/port/control), captcha (2captcha api_key), scraping (base_url, delay, rotation_count=9), database (path), logging (level, file)",
+        "requirements.txt includes playwright>=1.40.0, pyyaml>=6.0, stem>=1.8.0, 2captcha-python>=1.0",
+        "Existing Michelin-specific config replaced",
+        "Typecheck passes"
+      ],
+      "priority": 1,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-002",
+      "title": "Create SQLite database schema with portability and progress tables",
+      "description": "As a developer, I need the database layer so scraped results and resume state can be persisted.",
+      "acceptanceCriteria": [
+        "scraper/database.py creates portability table: phone TEXT PRIMARY KEY, operator TEXT, query_date TEXT, scraped_at TEXT",
+        "Creates progress table: csv_file TEXT PRIMARY KEY, last_line INTEGER, updated_at TEXT",
+        "upsert_result(phone, operator, query_date) inserts or updates portability row",
+        "get_progress(csv_file) returns last_line or 0",
+        "update_progress(csv_file, last_line) upserts progress row",
+        "Typecheck passes"
+      ],
+      "priority": 2,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-003",
+      "title": "Implement CSV reader with validation",
+      "description": "As a user, I want phone numbers loaded from a CSV file and validated before scraping.",
+      "acceptanceCriteria": [
+        "Reads CSV path from --input CLI arg, falls back to config.yaml input_csv",
+        "Reads single-column CSV with no header, one phone per line",
+        "Validates 9-digit Spanish mobile format (starts with 6 or 7)",
+        "Skips blank lines and deduplicates",
+        "Logs total valid phone count",
+        "Typecheck passes"
+      ],
+      "priority": 3,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-004",
+      "title": "Implement Tor proxy pool with counter-based IP rotation",
+      "description": "As a developer, I need IP rotation every N queries to stay under CNMC's 10/IP/day limit.",
+      "acceptanceCriteria": [
+        "scraper/proxy_pool.py connects to Tor control port via stem",
+        "rotate_if_needed(query_count) sends NEWNYM after every 9 successful queries",
+        "Waits minimum 10s after rotation for new circuit",
+        "Logs IP rotation events",
+        "reset_counter() method available",
+        "Typecheck passes"
+      ],
+      "priority": 4,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-005",
+      "title": "Implement 2Captcha solver integration",
+      "description": "As a developer, I need automated CAPTCHA solving so the scraper runs unattended.",
+      "acceptanceCriteria": [
+        "scraper/captcha.py uses 2captcha-python SDK",
+        "detect_sitekey(page) extracts reCAPTCHA sitekey from CNMC page HTML",
+        "solve(sitekey, page_url) sends solve request and polls for token",
+        "inject_token(page, token) sets g-recaptcha-response in the page",
+        "Handles 2Captcha errors (insufficient balance, timeout) with logging",
+        "API key read from config.yaml",
+        "Typecheck passes"
+      ],
+      "priority": 5,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-006",
+      "title": "Implement browser wrapper for CNMC form interaction",
+      "description": "As a developer, I need Playwright browser automation to fill and submit the CNMC form.",
+      "acceptanceCriteria": [
+        "scraper/browser.py launches Playwright Chromium with Tor SOCKS proxy",
+        "Applies webdriver masking (navigator.webdriver=false, chrome runtime object)",
+        "Rotates user-agent from predefined list",
+        "navigate_to_form() loads CNMC portability page",
+        "fill_phone(phone) enters number in form input",
+        "submit_form() clicks submit button after captcha token injected",
+        "get_response_html() waits for and returns result content",
+        "Typecheck passes"
+      ],
+      "priority": 6,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-007",
+      "title": "Implement response parser for CNMC results",
+      "description": "As a developer, I need to extract phone, operator, and date from the CNMC response page.",
+      "acceptanceCriteria": [
+        "scraper/parser.py parse_result(html) extracts Número de teléfono, Operador actual, Fecha consulta",
+        "Returns dict with keys: phone, operator, query_date",
+        "Returns None on parse failure with error logged",
+        "Handles both successful and error responses from CNMC",
+        "Typecheck passes"
+      ],
+      "priority": 7,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-008",
+      "title": "Implement main orchestration loop with resume",
+      "description": "As a user, I want the CLI to process all phones from CSV, rotate IPs, store results, and resume on restart.",
+      "acceptanceCriteria": [
+        "scraper/main.py is async entry point with argparse (--input, --reset)",
+        "Loads config, inits DB, reads CSV, checks progress for resume point",
+        "Loops: for each phone -> navigate form -> solve captcha -> submit -> parse -> store in DB -> update progress",
+        "Rotates Tor IP every 9 successful queries",
+        "Retries failed queries up to 3 times with exponential backoff",
+        "On CAPTCHA failure or IP block, rotates IP immediately and retries",
+        "Graceful shutdown on SIGINT: saves progress, closes browser and DB",
+        "--reset flag clears progress and starts from line 0",
+        "Logs resume point, progress, errors, and final stats",
+        "Typecheck passes"
+      ],
+      "priority": 8,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-009",
+      "title": "Set up logging and update README",
+      "description": "As a user, I want rotating file logs and updated documentation.",
+      "acceptanceCriteria": [
+        "scraper/utils.py setup_logging() creates rotating file handler (10MB, 5 backups) + console handler",
+        "Log level configurable via config.yaml",
+        "README.md documents: setup (Tor, Privoxy, 2Captcha), install, usage, config options",
+        "Delete Michelin-specific files: additions.txt, proxies.txt, scripts/fetch_proxies.py",
+        "Typecheck passes"
+      ],
+      "priority": 9,
+      "passes": false,
+      "notes": ""
+    }
+  ]
+}
