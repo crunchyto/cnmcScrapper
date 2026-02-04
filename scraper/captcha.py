@@ -33,6 +33,10 @@ class CaptchaSolver:
         match = re.search(r"grecaptcha\.render\([^,]+,\s*\{[^}]*sitekey['\"]?\s*:\s*['\"]([^'\"]+)['\"]", html)
         if match:
             return match.group(1)
+        # Look for sitekey in recaptcha iframe src (k= parameter)
+        match = re.search(r'recaptcha/api2/anchor\?[^"]*k=([^&"]+)', html)
+        if match:
+            return match.group(1)
         self.logger.error("Could not detect reCAPTCHA sitekey on page")
         return None
 
@@ -58,36 +62,27 @@ class CaptchaSolver:
         return None
 
     async def inject_token(self, page: Page, token: str) -> None:
-        """Set g-recaptcha-response in the page."""
+        """Set g-recaptcha-response and trigger the reCAPTCHA callback."""
         await page.evaluate(
             """(token) => {
                 const el = document.getElementById('g-recaptcha-response');
-                if (el) {
-                    el.style.display = '';
-                    el.value = token;
-                }
-                // Also try setting via textarea name
+                if (el) { el.style.display = ''; el.value = token; }
                 const ta = document.querySelector('textarea[name="g-recaptcha-response"]');
-                if (ta) {
-                    ta.style.display = '';
-                    ta.value = token;
-                }
-                // Trigger callback if registered
-                if (typeof window.captchaCallback === 'function') {
-                    window.captchaCallback(token);
-                }
+                if (ta) { ta.style.display = ''; ta.value = token; }
+
+                // Walk ___grecaptcha_cfg clients to find and invoke callback
                 if (typeof ___grecaptcha_cfg !== 'undefined') {
                     const clients = ___grecaptcha_cfg.clients;
                     if (clients) {
                         Object.keys(clients).forEach(key => {
                             const client = clients[key];
-                            // Walk nested objects looking for callback
                             const findCallback = (obj) => {
                                 if (!obj || typeof obj !== 'object') return;
                                 Object.keys(obj).forEach(k => {
-                                    if (typeof obj[k] === 'function' && k === 'callback') {
-                                        obj[k](token);
-                                    } else if (typeof obj[k] === 'object') {
+                                    if (typeof obj[k] === 'object' && obj[k] !== null) {
+                                        if (typeof obj[k].callback === 'function') {
+                                            obj[k].callback(token);
+                                        }
                                         findCallback(obj[k]);
                                     }
                                 });

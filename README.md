@@ -4,7 +4,7 @@ Bulk-query Spanish mobile carrier info from the CNMC portability checker. Uses P
 
 ## Prerequisites
 
-- **Python 3.10+**
+- **Python 3.14+** (managed via [uv](https://docs.astral.sh/uv/))
 - **Tor** — SOCKS proxy for IP rotation
 - **2Captcha account** — API key for automated CAPTCHA solving
 
@@ -23,24 +23,23 @@ Default config expects Tor on `127.0.0.1:9050` (SOCKS) and `9051` (control).
 
 Get an API key at [2captcha.com](https://2captcha.com) and set it in `config.yaml` under `captcha.api_key`.
 
-## Install
+## Install & Run
 
 ```bash
+# Install dependencies
 uv sync
+
+# Install Playwright browser
 uv run playwright install chromium
-```
 
-## Usage
-
-```bash
-# Basic run (reads phones from config input_csv)
+# Run with default config (reads from config input_csv)
 uv run python -m scraper.main
 
-# Specify input CSV
-uv run python -m scraper.main --input phones.csv
+# Run with a specific input file
+uv run python -m scraper.main --input telefonos.csv
 
 # Reset progress and start from scratch
-uv run python -m scraper.main --reset
+uv run python -m scraper.main --input telefonos.csv --reset
 
 # Custom config path
 uv run python -m scraper.main --config my_config.yaml
@@ -51,8 +50,9 @@ uv run python -m scraper.main --config my_config.yaml
 Single-column, no header, one 9-digit Spanish mobile per line (starts with 6 or 7):
 
 ```
-612345678
-711223344
+637996220
+644346930
+672328980
 ```
 
 ## Configuration

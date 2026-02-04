@@ -22,7 +22,7 @@ class ProxyPool:
 
         self.tor_host: str = str(proxy_cfg.get("tor_host", "127.0.0.1"))
         self.tor_port: int = int(proxy_cfg.get("tor_port", 9050))
-        self.control_port: str = str(proxy_cfg.get("control_port", 9051))
+        self.control_port: int = int(proxy_cfg.get("control_port", 9051))
         self.control_password: str = str(proxy_cfg.get("control_password", "scraper"))
         self.rotation_count: int = int(scraping_cfg.get("rotation_count", 9))
 

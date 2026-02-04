@@ -14,9 +14,15 @@ def parse_result(html: str) -> dict[str, str] | None:
     Returns None on parse failure.
     """
     try:
-        phone = _extract_field(html, r"[Nn]úmero\s+de\s+teléfono[^<]*?[>:]\s*([^<\n]+)")
-        operator = _extract_field(html, r"[Oo]perador\s+actual[^<]*?[>:]\s*([^<\n]+)")
-        query_date = _extract_field(html, r"[Ff]echa\s+(?:de\s+)?consulta[^<]*?[>:]\s*([^<\n]+)")
+        # Vuetify layout: <p class="negrita"> Label: </p><p>Value</p>
+        phone = _extract_vuetify_field(html, r"[Nn]úmero\s+de\s+teléfono")
+        operator = _extract_vuetify_field(html, r"[Oo]perador\s+actual")
+        query_date = _extract_vuetify_field(html, r"[Ff]echa\s+(?:de\s+)?consulta")
+
+        if not phone and not operator:
+            phone = _extract_field(html, r"[Nn]úmero\s+de\s+teléfono[^<]*?[>:]\s*([^<\n]+)")
+            operator = _extract_field(html, r"[Oo]perador\s+actual[^<]*?[>:]\s*([^<\n]+)")
+            query_date = _extract_field(html, r"[Ff]echa\s+(?:de\s+)?consulta[^<]*?[>:]\s*([^<\n]+)")
 
         if not phone and not operator:
             # Try table-based layout: <td>label</td><td>value</td>
@@ -44,6 +50,18 @@ def parse_result(html: str) -> dict[str, str] | None:
     except Exception:
         logger.exception("Unexpected error parsing CNMC response")
         return None
+
+
+def _extract_vuetify_field(html: str, label_pattern: str) -> str | None:
+    """Extract value from Vuetify layout: <p class="negrita"> Label </p><p>Value</p>."""
+    pattern = (
+        r'<p[^>]*class="negrita"[^>]*>\s*' + label_pattern + r'[^<]*</p>\s*<p>([^<]+)</p>'
+    )
+    match = re.search(pattern, html, re.IGNORECASE | re.DOTALL)
+    if match:
+        value = match.group(1).strip()
+        return value if value else None
+    return None
 
 
 def _extract_field(html: str, pattern: str) -> str | None:

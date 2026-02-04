@@ -80,46 +80,45 @@ class Browser:
         return self._page
 
     async def navigate_to_form(self) -> None:
-        """Load the CNMC portability checker page."""
+        """Load the CNMC portability checker page and dismiss cookie consent."""
         base_url = str(self.config.get("scraping", {}).get(
             "base_url", "https://numeracionyoperadores.cnmc.es/portabilidad/movil"
         ))
         self.logger.info("Navigating to %s", base_url)
         await self.page.goto(base_url, wait_until="networkidle")
+        # Dismiss cookie consent dialog if present
+        try:
+            acepto = self.page.locator('button:has-text("Acepto")')
+            await acepto.click(timeout=3000)
+            await self.page.wait_for_timeout(500)
+            self.logger.info("Cookie consent dismissed")
+        except Exception:
+            pass
         self.logger.info("CNMC form page loaded")
 
     async def fill_phone(self, phone: str) -> None:
-        """Enter phone number into the CNMC form input field."""
-        # CNMC form has an input for the phone number
-        input_selector = 'input[type="text"], input[type="tel"], input[name*="telefono"], input[name*="numero"], input#telefono'
+        """Enter phone number into the CNMC Vuetify form input field."""
+        input_selector = "input.v-field__input"
         await self.page.wait_for_selector(input_selector)
-        el = await self.page.query_selector(input_selector)
-        if el is None:
-            raise RuntimeError("Phone input field not found on CNMC page")
-        await el.fill(phone)
+        await self.page.locator(input_selector).first.fill(phone)
         self.logger.info("Filled phone: %s", phone)
 
     async def submit_form(self) -> None:
-        """Click the submit button on the CNMC form."""
-        submit_selector = 'button[type="submit"], input[type="submit"], button:has-text("Consultar")'
-        await self.page.wait_for_selector(submit_selector)
-        el = await self.page.query_selector(submit_selector)
-        if el is None:
-            raise RuntimeError("Submit button not found on CNMC page")
-        await el.click()
+        """Click the Buscar button on the CNMC form."""
+        submit_selector = 'button.v-btn.bg-warning:has-text("Buscar")'
+        await self.page.locator(submit_selector).click()
         self.logger.info("Form submitted")
 
     async def get_response_html(self) -> str:
-        """Wait for result content and return the page HTML."""
-        # Wait for response section to appear (result or error)
+        """Wait for result card and return the result column HTML."""
         try:
             await self.page.wait_for_selector(
-                '.resultado, .result, .error, [class*="result"], [class*="respuesta"]',
+                ".v-col-lg-8 .v-card",
                 timeout=30000,
             )
         except Exception:
-            self.logger.warning("Result selector not found; returning full page HTML")
-        return await self.page.content()
+            self.logger.warning("Result card not found; returning full page HTML")
+        return await self.page.locator(".v-col-lg-8").inner_html()
 
     async def rotate_user_agent(self) -> None:
         """Create a new context+page with a fresh user agent (call after IP rotation)."""

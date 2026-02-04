@@ -2172,3 +2172,189 @@ Call log:
 2026-01-30 14:27:48,524 [INFO] Full scrape complete!
 2026-01-30 14:27:48,524 [INFO] Final stats: {'added': 1274, 'modified': 0, 'unchanged': 0, 'failed': 0}
 2026-01-30 14:27:48,529 [INFO] Total restaurants in DB: 1274
+2026-02-04 19:57:37,233 [INFO] Loaded 15 valid phone numbers from telefonos.csv
+2026-02-04 19:57:37,238 [ERROR] Cannot connect to Tor control port: 'str' object cannot be interpreted as an integer
+2026-02-04 19:58:12,264 [INFO] Loaded 15 valid phone numbers from telefonos.csv
+2026-02-04 19:58:12,274 [INFO] Tor control port connected
+2026-02-04 19:58:12,274 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-02-04 20:08:47,290 [INFO] Loaded 15 valid phone numbers from telefonos.csv
+2026-02-04 20:08:47,298 [INFO] Tor control port connected
+2026-02-04 20:08:47,298 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-02-04 20:09:09,054 [INFO] Loaded 15 valid phone numbers from telefonos.csv
+2026-02-04 20:09:09,059 [INFO] Tor control port connected
+2026-02-04 20:09:09,059 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-02-04 20:09:10,519 [INFO] Browser started with Tor proxy and UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64
+2026-02-04 20:09:10,519 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:09:17,581 [INFO] CNMC form page loaded
+2026-02-04 20:09:17,628 [INFO] Filled phone: 637996220
+2026-02-04 20:09:17,631 [ERROR] Could not detect reCAPTCHA sitekey on page
+2026-02-04 20:10:17,636 [WARNING] Retry 1/3 for 637996220: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("button[type=\"submit\"], input[type=\"submit\"], button:has-text(\"Consultar\")") to be visible
+ (wait 5s)
+2026-02-04 20:10:22,637 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:10:37,512 [INFO] CNMC form page loaded
+2026-02-04 20:10:37,537 [INFO] Filled phone: 637996220
+2026-02-04 20:10:37,539 [ERROR] Could not detect reCAPTCHA sitekey on page
+2026-02-04 20:11:37,541 [WARNING] Retry 2/3 for 637996220: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("button[type=\"submit\"], input[type=\"submit\"], button:has-text(\"Consultar\")") to be visible
+ (wait 10s)
+2026-02-04 20:11:47,542 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:11:49,678 [INFO] CNMC form page loaded
+2026-02-04 20:11:49,714 [INFO] Filled phone: 637996220
+2026-02-04 20:11:49,718 [ERROR] Could not detect reCAPTCHA sitekey on page
+2026-02-04 20:12:49,721 [ERROR] All 3 retries failed for 637996220: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("button[type=\"submit\"], input[type=\"submit\"], button:has-text(\"Consultar\")") to be visible
+
+2026-02-04 20:12:51,726 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:12:53,174 [INFO] CNMC form page loaded
+2026-02-04 20:12:53,207 [INFO] Filled phone: 644346930
+2026-02-04 20:12:53,210 [ERROR] Could not detect reCAPTCHA sitekey on page
+2026-02-04 20:22:34,372 [INFO] Loaded 15 valid phone numbers from telefonos.csv
+2026-02-04 20:22:34,372 [INFO] Progress reset for telefonos.csv
+2026-02-04 20:22:34,377 [INFO] Tor control port connected
+2026-02-04 20:22:34,377 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-02-04 20:22:34,732 [INFO] Browser started with Tor proxy and UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64
+2026-02-04 20:22:34,732 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:22:42,084 [INFO] Cookie consent dismissed
+2026-02-04 20:22:42,084 [INFO] CNMC form page loaded
+2026-02-04 20:22:42,108 [INFO] Filled phone: 637996220
+2026-02-04 20:22:42,112 [INFO] Sending captcha to 2Captcha...
+2026-02-04 20:23:43,953 [INFO] Captcha solved successfully
+2026-02-04 20:23:43,958 [INFO] Captcha token injected into page
+2026-02-04 20:23:43,994 [INFO] Form submitted
+2026-02-04 20:23:55,379 [INFO] [1/15] 637996220 -> DIGI SPAIN TELECOM
+2026-02-04 20:23:57,382 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:24:02,536 [INFO] CNMC form page loaded
+2026-02-04 20:24:02,550 [INFO] Filled phone: 644346930
+2026-02-04 20:24:02,552 [INFO] Sending captcha to 2Captcha...
+2026-02-04 20:25:14,513 [INFO] Captcha solved successfully
+2026-02-04 20:25:14,520 [INFO] Captcha token injected into page
+2026-02-04 20:25:14,569 [INFO] Form submitted
+2026-02-04 20:25:15,859 [INFO] [2/15] 644346930 -> ORANGE
+2026-02-04 20:25:17,862 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:25:23,697 [INFO] CNMC form page loaded
+2026-02-04 20:25:23,718 [INFO] Filled phone: 672328980
+2026-02-04 20:25:23,722 [INFO] Sending captcha to 2Captcha...
+2026-02-04 20:25:24,155 [INFO] Captcha solved successfully
+2026-02-04 20:25:24,161 [INFO] Captcha token injected into page
+2026-02-04 20:25:24,200 [INFO] Form submitted
+2026-02-04 20:25:24,992 [INFO] [3/15] 672328980 -> VODAFONE ESPAÑA, S.A. UNIPERSONAL
+2026-02-04 20:25:26,994 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:25:32,618 [INFO] CNMC form page loaded
+2026-02-04 20:25:32,641 [INFO] Filled phone: 636847189
+2026-02-04 20:25:32,646 [INFO] Sending captcha to 2Captcha...
+2026-02-04 20:27:56,921 [INFO] Captcha solved successfully
+2026-02-04 20:27:56,929 [INFO] Captcha token injected into page
+2026-02-04 20:27:56,969 [INFO] Form submitted
+2026-02-04 20:28:00,292 [INFO] [4/15] 636847189 -> DIGI SPAIN TELECOM
+2026-02-04 20:28:02,293 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:28:07,311 [INFO] CNMC form page loaded
+2026-02-04 20:28:07,339 [INFO] Filled phone: 608163664
+2026-02-04 20:28:07,342 [INFO] Sending captcha to 2Captcha...
+2026-02-04 20:29:08,987 [INFO] Captcha solved successfully
+2026-02-04 20:29:08,991 [INFO] Captcha token injected into page
+2026-02-04 20:29:09,024 [INFO] Form submitted
+2026-02-04 20:29:10,346 [INFO] [5/15] 608163664 -> VODAFONE
+2026-02-04 20:29:12,349 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:29:17,498 [INFO] CNMC form page loaded
+2026-02-04 20:29:17,518 [INFO] Filled phone: 607380810
+2026-02-04 20:29:17,521 [INFO] Sending captcha to 2Captcha...
+2026-02-04 20:30:09,323 [INFO] Captcha solved successfully
+2026-02-04 20:30:09,330 [INFO] Captcha token injected into page
+2026-02-04 20:30:09,372 [INFO] Form submitted
+2026-02-04 20:30:10,159 [INFO] [6/15] 607380810 -> MOVISTAR
+2026-02-04 20:30:12,160 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:30:17,144 [INFO] CNMC form page loaded
+2026-02-04 20:30:17,168 [INFO] Filled phone: 661385853
+2026-02-04 20:30:17,171 [INFO] Sending captcha to 2Captcha...
+2026-02-04 20:30:17,586 [INFO] Captcha solved successfully
+2026-02-04 20:30:17,592 [INFO] Captcha token injected into page
+2026-02-04 20:30:17,642 [INFO] Form submitted
+2026-02-04 20:30:18,439 [INFO] [7/15] 661385853 -> MOVISTAR
+2026-02-04 20:30:20,441 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:30:25,092 [INFO] CNMC form page loaded
+2026-02-04 20:30:25,117 [INFO] Filled phone: 623198836
+2026-02-04 20:30:25,122 [INFO] Sending captcha to 2Captcha...
+2026-02-04 20:33:11,230 [WARNING] Captcha/block failure for 623198836, rotating IP: ERROR_CAPTCHA_UNSOLVABLE
+2026-02-04 20:33:11,258 [INFO] Tor IP rotated (NEWNYM signal sent)
+2026-02-04 20:33:11,258 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-02-04 20:33:11,334 [INFO] Rotated user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 1
+2026-02-04 20:33:11,334 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:33:20,837 [INFO] Cookie consent dismissed
+2026-02-04 20:33:20,837 [INFO] CNMC form page loaded
+2026-02-04 20:33:20,853 [INFO] Filled phone: 623198836
+2026-02-04 20:33:20,855 [INFO] Sending captcha to 2Captcha...
+2026-02-04 20:33:21,294 [INFO] Captcha solved successfully
+2026-02-04 20:33:21,299 [INFO] Captcha token injected into page
+2026-02-04 20:33:21,334 [INFO] Form submitted
+2026-02-04 20:33:22,123 [INFO] [8/15] 623198836 -> ORANGE
+2026-02-04 20:33:24,124 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:33:29,528 [INFO] CNMC form page loaded
+2026-02-04 20:33:29,548 [INFO] Filled phone: 610531635
+2026-02-04 20:33:29,551 [INFO] Sending captcha to 2Captcha...
+2026-02-04 20:34:41,679 [INFO] Captcha solved successfully
+2026-02-04 20:34:41,686 [INFO] Captcha token injected into page
+2026-02-04 20:34:41,716 [INFO] Form submitted
+2026-02-04 20:34:42,504 [INFO] [9/15] 610531635 -> MOVISTAR
+2026-02-04 20:34:42,522 [INFO] Tor IP rotated (NEWNYM signal sent)
+2026-02-04 20:34:42,522 [INFO] Error while receiving a control message (SocketClosed): received exception "read of closed file"
+2026-02-04 20:34:42,576 [INFO] Rotated user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64
+2026-02-04 20:34:44,577 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:34:51,886 [INFO] Cookie consent dismissed
+2026-02-04 20:34:51,886 [INFO] CNMC form page loaded
+2026-02-04 20:34:51,901 [INFO] Filled phone: 610886832
+2026-02-04 20:34:51,904 [INFO] Sending captcha to 2Captcha...
+2026-02-04 20:35:02,609 [INFO] Captcha solved successfully
+2026-02-04 20:35:02,678 [INFO] Captcha token injected into page
+2026-02-04 20:35:02,832 [INFO] Form submitted
+2026-02-04 20:35:03,665 [INFO] [10/15] 610886832 -> YOIGO
+2026-02-04 20:35:05,668 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:35:11,227 [INFO] CNMC form page loaded
+2026-02-04 20:35:11,294 [INFO] Filled phone: 618014209
+2026-02-04 20:35:11,300 [INFO] Sending captcha to 2Captcha...
+2026-02-04 20:35:11,795 [INFO] Captcha solved successfully
+2026-02-04 20:35:11,800 [INFO] Captcha token injected into page
+2026-02-04 20:35:11,852 [INFO] Form submitted
+2026-02-04 20:35:12,647 [INFO] [11/15] 618014209 -> ORANGE
+2026-02-04 20:35:14,649 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:35:19,481 [INFO] CNMC form page loaded
+2026-02-04 20:35:19,528 [INFO] Filled phone: 645339418
+2026-02-04 20:35:19,536 [INFO] Sending captcha to 2Captcha...
+2026-02-04 20:36:24,890 [WARNING] Retry 1/3 for 645339418: bad response: 500 (wait 5s)
+2026-02-04 20:36:29,988 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:36:37,641 [INFO] CNMC form page loaded
+2026-02-04 20:36:37,761 [INFO] Filled phone: 645339418
+2026-02-04 20:36:37,773 [INFO] Sending captcha to 2Captcha...
+2026-02-04 20:36:38,364 [INFO] Captcha solved successfully
+2026-02-04 20:36:38,378 [INFO] Captcha token injected into page
+2026-02-04 20:36:38,475 [INFO] Form submitted
+2026-02-04 20:36:39,311 [INFO] [12/15] 645339418 -> DIGI SPAIN TELECOM
+2026-02-04 20:36:41,318 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:36:46,810 [INFO] CNMC form page loaded
+2026-02-04 20:36:46,859 [INFO] Filled phone: 617200209
+2026-02-04 20:36:46,864 [INFO] Sending captcha to 2Captcha...
+2026-02-04 20:38:20,976 [INFO] Captcha solved successfully
+2026-02-04 20:38:21,033 [INFO] Captcha token injected into page
+2026-02-04 20:38:21,151 [INFO] Form submitted
+2026-02-04 20:38:21,944 [INFO] [13/15] 617200209 -> YOIGO
+2026-02-04 20:38:23,946 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:38:28,611 [INFO] CNMC form page loaded
+2026-02-04 20:38:28,634 [INFO] Filled phone: 672817492
+2026-02-04 20:38:28,637 [INFO] Sending captcha to 2Captcha...
+2026-02-04 20:39:51,746 [INFO] Captcha solved successfully
+2026-02-04 20:39:51,759 [INFO] Captcha token injected into page
+2026-02-04 20:39:51,802 [INFO] Form submitted
+2026-02-04 20:39:53,092 [INFO] [14/15] 672817492 -> ORANGE
+2026-02-04 20:39:55,094 [INFO] Navigating to https://numeracionyoperadores.cnmc.es/portabilidad/movil
+2026-02-04 20:39:59,892 [INFO] CNMC form page loaded
+2026-02-04 20:39:59,909 [INFO] Filled phone: 692572142
+2026-02-04 20:39:59,912 [INFO] Sending captcha to 2Captcha...
+2026-02-04 20:40:00,439 [INFO] Captcha solved successfully
+2026-02-04 20:40:00,443 [INFO] Captcha token injected into page
+2026-02-04 20:40:00,480 [INFO] Form submitted
+2026-02-04 20:40:01,267 [INFO] [15/15] 692572142 -> VODAFONE
+2026-02-04 20:40:01,344 [INFO] Browser stopped
+2026-02-04 20:40:01,345 [INFO] Done. success=15 fail=0 skipped=0 total=15
