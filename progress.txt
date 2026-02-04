@@ -114,3 +114,15 @@
   - signal.signal handler raising exception works for graceful async shutdown
   - CaptchaSolver.solve() is sync (not async); called directly in async context
 ---
+
+## 2026-02-04 - US-009
+- Rewrote scraper/utils.py: replaced basic FileHandler with RotatingFileHandler (10MB, 5 backups)
+- Removed Michelin compute_content_hash; logger name now "cnmc_scraper"
+- Log level configurable via config.yaml logging.level; max_bytes/backup_count also configurable
+- Replaced Michelin README with CNMC docs: prerequisites (Tor, 2Captcha), install via uv, usage, config reference, DB schema
+- Deleted Michelin files: additions.txt, proxies.txt, scripts/fetch_proxies.py
+- Files changed: scraper/utils.py, README.md, additions.txt (deleted), proxies.txt (deleted), scripts/fetch_proxies.py (deleted)
+- **Learnings for future iterations:**
+  - RotatingFileHandler from logging.handlers; pass maxBytes and backupCount
+  - type: ignore[no-any-return] on yaml.safe_load to satisfy pyright return type
+---
