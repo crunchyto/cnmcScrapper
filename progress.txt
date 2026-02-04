@@ -1,0 +1,30 @@
+## Codebase Patterns
+- Use uv to manage deps and venv; activate before any execution
+- config.yaml sections: proxy, captcha, scraping, retry, database, logging, input_csv
+- Typecheck with `uv run pyright scraper/` (only .py files)
+- Wrap config.get() returns with str() to satisfy pyright type narrowing
+- Use `datetime.now(timezone.utc)` not deprecated `datetime.utcnow()`
+
+---
+
+## 2026-02-04 - US-001
+- Replaced Michelin config.yaml with CNMC sections (proxy/tor, captcha/2captcha, scraping, database, logging)
+- Updated requirements.txt to include 2captcha-python>=1.0
+- Set up uv project with pyproject.toml
+- Files changed: config.yaml, requirements.txt, pyproject.toml, uv.lock, .python-version
+- **Learnings for future iterations:**
+  - Existing codebase is a Michelin restaurant scraper; each story will replace modules
+  - pyright errors on existing Michelin Python code are pre-existing, will be fixed as modules are rewritten
+  - Run typecheck with `uv run pyright scraper/` not on yaml/txt files
+---
+
+## 2026-02-04 - US-002
+- Replaced Michelin restaurant schema with CNMC portability + progress tables
+- upsert_result uses ON CONFLICT ... DO UPDATE for clean upserts
+- get_progress returns 0 when no row found, update_progress upserts via ON CONFLICT
+- Used str() cast on config.get() return to satisfy pyright type narrowing
+- Files changed: scraper/database.py
+- **Learnings for future iterations:**
+  - config.get() returns Unknown type to pyright; wrap with str() for path params
+  - Use `datetime.now(timezone.utc)` instead of deprecated `datetime.utcnow()`
+---
