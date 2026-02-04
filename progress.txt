@@ -4,6 +4,8 @@
 - Typecheck with `uv run pyright scraper/` (only .py files)
 - Wrap config.get() returns with str() to satisfy pyright type narrowing
 - Use `datetime.now(timezone.utc)` not deprecated `datetime.utcnow()`
+- stem library has no type stubs; use `# pyright: ignore[reportAttributeAccessIssue]` for Signal.NEWNYM
+- Controller.from_port() `port` param typed as str in stubs; pass str not int
 
 ---
 
@@ -36,4 +38,16 @@
 - **Learnings for future iterations:**
   - Python 3.10+ `str | None` union syntax works fine with pyright, no need for Optional
   - Use re.compile for regex patterns used in loops
+---
+
+## 2026-02-04 - US-004
+- Rewrote scraper/proxy_pool.py: config-driven ProxyPool class using stem
+- rotate_if_needed(query_count) rotates every N (default 9) queries via NEWNYM
+- 10s minimum wait between rotations enforced in _rotate()
+- Config read from proxy + scraping sections; connect() verifies control port
+- Added force_rotate() for immediate rotation on blocks, reset_counter() available
+- Files changed: scraper/proxy_pool.py
+- **Learnings for future iterations:**
+  - stem has no pyright-compatible type stubs; Signal.NEWNYM needs pyright ignore comment
+  - Controller.from_port() port param is typed as str in stubs, not int
 ---
