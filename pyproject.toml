@@ -1,0 +1,17 @@
+[project]
+name = "cnmcscrapper"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.14"
+dependencies = [
+    "2captcha-python>=2.0.2",
+    "playwright>=1.58.0",
+    "pyyaml>=6.0.3",
+    "stem>=1.8.2",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.19.1",
+    "pyright>=1.1.408",
+]
