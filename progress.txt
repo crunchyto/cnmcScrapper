@@ -10,6 +10,8 @@
 - Import exceptions from twocaptcha: ApiException, NetworkException, TimeoutException, ValidationException
 - Playwright ProxySettings TypedDict importable from playwright.async_api; use it instead of plain dict for proxy args
 - Store Playwright instance as `Playwright` type (not `object`) to avoid pyright issues on .stop()
+- Pre-init loop variables used in except/finally blocks to avoid pyright reportPossiblyUnboundVariable
+- CaptchaSolver.solve() is synchronous; safe to call in async without run_in_executor
 
 ---
 
@@ -94,4 +96,21 @@
 - **Learnings for future iterations:**
   - CNMC response format may use either label:value or table layout; parser handles both
   - Old Michelin parser imported compute_content_hash from utils; no longer needed
+---
+
+## 2026-02-04 - US-008
+- Rewrote scraper/main.py: replaced Michelin two-pass scraper with CNMC phone orchestration loop
+- Async entry point with argparse (--input, --reset, --config)
+- Loads config, inits DB, reads CSV via csv_reader, checks progress for resume
+- Loop: navigate form -> detect/solve captcha -> submit -> parse -> store in DB -> update progress
+- Rotates Tor IP every N successful queries via proxy_pool.rotate_if_needed()
+- Retries failed queries up to 3x with exponential backoff
+- On captcha/block failure: force_rotate() + rotate_user_agent() immediately
+- Graceful SIGINT shutdown: saves progress, closes browser and DB
+- --reset flag clears progress to 0
+- Files changed: scraper/main.py, prd.json, progress.txt
+- **Learnings for future iterations:**
+  - pyright reportPossiblyUnboundVariable: loop vars like `idx` need pre-init if used in except block
+  - signal.signal handler raising exception works for graceful async shutdown
+  - CaptchaSolver.solve() is sync (not async); called directly in async context
 ---
