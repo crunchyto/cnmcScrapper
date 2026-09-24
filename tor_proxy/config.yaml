@@ -1,0 +1,12 @@
+# tor_proxy module configuration
+
+# Tor daemon settings
+proxy:
+  tor_host: "127.0.0.1" # SOCKS5 host used by your HTTP client/browser
+  tor_port: 9050 # SOCKS5 port
+  control_port: 9051 # Tor control port (used to send NEWNYM)
+  control_password: "scraper" # Must match HashedControlPassword in torrc
+
+# IP rotation settings
+scraping:
+  rotation_count: 9 # Rotate IP every N successful queries
